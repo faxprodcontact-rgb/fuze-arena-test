@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « arène » (préfixe embarena-), générée par refonte/outils/icones.cjs -->
+<defs>
+<linearGradient id="embarena-e0-epee-acier" x1="0" y1="0" x2="1" y2="0.35"><stop offset="0" stop-color="#f7f9ff"/><stop offset="0.45" stop-color="#c3cce0"/><stop offset="1" stop-color="#8a95b2"/></linearGradient>
+<linearGradient id="embarena-e0-epee-or-horizontal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff7c4"/><stop offset="0.45" stop-color="#f7bc2a"/><stop offset="1" stop-color="#d98a16"/></linearGradient>
+<clipPath id="embarena-e0-epee-lame"><path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z"/></clipPath>
+<clipPath id="embarena-e0-epee-poignee-en-cuir"><path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z"/></clipPath>
+<clipPath id="embarena-e0-epee-garde-doree"><path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z"/></clipPath>
+<clipPath id="embarena-e0-epee-gemme-0-7-2"><path d="M-2.9 -7.2C-2.9 -8.8 -1.6 -10.1 0 -10.1C1.6 -10.1 2.9 -8.8 2.9 -7.2C2.9 -5.6 1.6 -4.3 0 -4.3C-1.6 -4.3 -2.9 -5.6 -2.9 -7.2Z"/></clipPath>
+<clipPath id="embarena-e0-epee-pommeau"><path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z"/></clipPath>
+
+<linearGradient id="embarena-e1-epee-acier" x1="0" y1="0" x2="1" y2="0.35"><stop offset="0" stop-color="#f7f9ff"/><stop offset="0.45" stop-color="#c3cce0"/><stop offset="1" stop-color="#8a95b2"/></linearGradient>
+<linearGradient id="embarena-e1-epee-or-horizontal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff7c4"/><stop offset="0.45" stop-color="#f7bc2a"/><stop offset="1" stop-color="#d98a16"/></linearGradient>
+<clipPath id="embarena-e1-epee-lame"><path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z"/></clipPath>
+<clipPath id="embarena-e1-epee-poignee-en-cuir"><path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z"/></clipPath>
+<clipPath id="embarena-e1-epee-garde-doree"><path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z"/></clipPath>
+<clipPath id="embarena-e1-epee-gemme-0-7-2"><path d="M-2.9 -7.2C-2.9 -8.8 -1.6 -10.1 0 -10.1C1.6 -10.1 2.9 -8.8 2.9 -7.2C2.9 -5.6 1.6 -4.3 0 -4.3C-1.6 -4.3 -2.9 -5.6 -2.9 -7.2Z"/></clipPath>
+<clipPath id="embarena-e1-epee-pommeau"><path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z"/></clipPath>
+
+<linearGradient id="embarena-e2-bouclier-gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff7c4"/><stop offset="0.45" stop-color="#f7bc2a"/><stop offset="1" stop-color="#d98a16"/></linearGradient>
+<clipPath id="embarena-e2-bouclier-bordure-doree"><path d="M32 5.4C39.6 9.4 47.6 10.4 55.6 9.4C57 31 52 47.6 32 58.6C12 47.6 7 31 8.4 9.4C16.4 10.4 24.4 9.4 32 5.4Z"/></clipPath>
+<clipPath id="embarena-e2-bouclier-champ-bleu"><path d="M32 10.44C38.08 13.64 44.48 14.44 50.88 13.64C52 30.92 48 44.2 32 53C16 44.2 12 30.92 13.12 13.64C19.52 14.44 25.92 13.64 32 10.44Z"/></clipPath>
+<clipPath id="embarena-e2-bouclier-croix-doree"><path d="M29.52 27.52C28.9 23.8 27.66 21.32 26.42 18.84L37.58 18.84C36.34 21.32 35.1 23.8 34.48 27.52C37.58 26.9 40.06 25.66 42.54 24.42L42.54 35.58C40.06 34.34 37.58 33.1 34.48 32.48C35.1 36.2 36.34 39.3 37.58 42.4L26.42 42.4C27.66 39.3 28.9 36.2 29.52 32.48C26.42 33.1 23.94 34.34 21.46 35.58L21.46 24.42C23.94 25.66 26.42 26.9 29.52 27.52Z"/></clipPath>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(-4 -4)">
+<!-- ===== ÉPÉE (repère local : main en 0,0, lame vers le haut) ===== -->
+<!-- pivot arme : 20.4,43.4 -->
+<g transform="translate(20.4 43.4) rotate(45)">
+<!-- doublure -->
+<g fill="#1b1530" stroke="#1b1530" stroke-width="6"><path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z"/><path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z"/><path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z"/><path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z"/></g>
+<!-- lame -->
+<g clip-path="url(#embarena-e0-epee-lame)"><rect x="-8" y="-51" width="16" height="44" fill="url(#embarena-e0-epee-acier)"/><path d="M0 -52L9 -52L9 -6L0 -6Z" fill="#9ba7c3"/><path d="M4.4 -40L9 -40L9 -6L4.6 -6Z" fill="#6f7a9b"/><path d="M0 -12L0 -36" fill="none" stroke="#6f7a9b" stroke-width="2.6"/><path d="M-0.7 -13L-0.7 -35" fill="none" stroke="#ffffff" stroke-width="0.8"/><path d="M-4.6 -10.5L-4.2 -37L-1.2 -44" fill="none" stroke="#ffffff" stroke-width="1.4"/><path d="M5.4 -10L5.2 -36" fill="none" stroke="#eef2fa" stroke-width="1"/></g>
+<path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M-6 -47.7L-4.54 -44.86L-1.7 -43.4L-4.54 -41.94L-6 -39.1L-7.46 -41.94L-10.3 -43.4L-7.46 -44.86Z" fill="#ffffff" stroke="#1b1530" stroke-width="1.3"/>
+<!-- poignée en cuir -->
+<g clip-path="url(#embarena-e0-epee-poignee-en-cuir)"><rect x="-4.7" y="-6" width="9.4" height="16.4" fill="#94593a"/><path d="M0.8 -6L5 -6L5 10L0.8 10Z" fill="#6a3a24"/><path d="M-3.7 -1.6L3.7 0.6M-3.7 2.6L3.7 4.8M-3.7 6.8L3.7 9" fill="none" stroke="#45230f" stroke-width="1.2"/><path d="M-2.2 -3L-2.2 8" fill="none" stroke="#c58a58" stroke-width="1.1"/></g>
+<path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- garde dorée -->
+<g clip-path="url(#embarena-e0-epee-garde-doree)"><rect x="-17.6" y="-16" width="35.2" height="12.8" fill="url(#embarena-e0-epee-or-horizontal)"/><path d="M-17 -9.6L17 -9.6L17 -2L-17 -2Z" fill="#cd7e15"/><path d="M6 -16L18 -16L18 -2L6 -2Z" fill="#cd7e15"/><path d="M12 -16L18 -16L18 -2L12 -2Z" fill="#8f4c0a"/><path d="M-14.8 -12.6L-6 -10.2" fill="none" stroke="#fff7c4" stroke-width="1.2"/></g>
+<path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+<!-- garde : gemme rouge -->
+<g clip-path="url(#embarena-e0-epee-gemme-0-7-2)"><circle cx="0" cy="-7.2" r="3.9" fill="#e3343d"/><path d="M1.5 -9.66A2.9 2.9 0 0 1 -2.46 -5.7L-32.46 46.26L64.68 57.48L53.46 -39.66Z" fill="#a81d35"/><path d="M-1.77 -7.51A1.798 1.798 0 0 1 -0.16 -8.99A3.48 3.48 0 0 0 -1.77 -7.51Z" fill="#ff6d60"/></g><circle cx="0" cy="-7.2" r="2.9" fill="none" stroke="#1b1530" stroke-width="1.4"/><circle cx="-1.1" cy="-8.36" r="0.7" fill="#ffffff"/>
+<!-- pommeau -->
+<g clip-path="url(#embarena-e0-epee-pommeau)"><rect x="-5.8" y="7" width="11.6" height="11.6" fill="url(#embarena-e0-epee-or-horizontal)"/><path d="M-0.57 8.07A4.8 4.8 0 0 1 -0.57 17.53L9.85 76.62L93.4 12.8L9.85 -51.02Z" fill="#cd7e15"/><circle cx="-1.8" cy="11" r="1.2" fill="#ffffff"/></g>
+<path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+</g>
+</g>
+<g transform="translate(68 -4) scale(-1 1)">
+<!-- ===== ÉPÉE (repère local : main en 0,0, lame vers le haut) ===== -->
+<!-- pivot arme : 20.4,43.4 -->
+<g transform="translate(20.4 43.4) rotate(45)">
+<!-- doublure -->
+<g fill="#1b1530" stroke="#1b1530" stroke-width="6"><path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z"/><path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z"/><path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z"/><path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z"/></g>
+<!-- lame -->
+<g clip-path="url(#embarena-e1-epee-lame)"><rect x="-8" y="-51" width="16" height="44" fill="url(#embarena-e1-epee-acier)"/><path d="M0 -52L9 -52L9 -6L0 -6Z" fill="#9ba7c3"/><path d="M4.4 -40L9 -40L9 -6L4.6 -6Z" fill="#6f7a9b"/><path d="M0 -12L0 -36" fill="none" stroke="#6f7a9b" stroke-width="2.6"/><path d="M-0.7 -13L-0.7 -35" fill="none" stroke="#ffffff" stroke-width="0.8"/><path d="M-4.6 -10.5L-4.2 -37L-1.2 -44" fill="none" stroke="#ffffff" stroke-width="1.4"/><path d="M5.4 -10L5.2 -36" fill="none" stroke="#eef2fa" stroke-width="1"/></g>
+<path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M-6 -47.7L-4.54 -44.86L-1.7 -43.4L-4.54 -41.94L-6 -39.1L-7.46 -41.94L-10.3 -43.4L-7.46 -44.86Z" fill="#ffffff" stroke="#1b1530" stroke-width="1.3"/>
+<!-- poignée en cuir -->
+<g clip-path="url(#embarena-e1-epee-poignee-en-cuir)"><rect x="-4.7" y="-6" width="9.4" height="16.4" fill="#94593a"/><path d="M0.8 -6L5 -6L5 10L0.8 10Z" fill="#6a3a24"/><path d="M-3.7 -1.6L3.7 0.6M-3.7 2.6L3.7 4.8M-3.7 6.8L3.7 9" fill="none" stroke="#45230f" stroke-width="1.2"/><path d="M-2.2 -3L-2.2 8" fill="none" stroke="#c58a58" stroke-width="1.1"/></g>
+<path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- garde dorée -->
+<g clip-path="url(#embarena-e1-epee-garde-doree)"><rect x="-17.6" y="-16" width="35.2" height="12.8" fill="url(#embarena-e1-epee-or-horizontal)"/><path d="M-17 -9.6L17 -9.6L17 -2L-17 -2Z" fill="#cd7e15"/><path d="M6 -16L18 -16L18 -2L6 -2Z" fill="#cd7e15"/><path d="M12 -16L18 -16L18 -2L12 -2Z" fill="#8f4c0a"/><path d="M-14.8 -12.6L-6 -10.2" fill="none" stroke="#fff7c4" stroke-width="1.2"/></g>
+<path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+<!-- garde : gemme rouge -->
+<g clip-path="url(#embarena-e1-epee-gemme-0-7-2)"><circle cx="0" cy="-7.2" r="3.9" fill="#e3343d"/><path d="M1.5 -9.66A2.9 2.9 0 0 1 -2.46 -5.7L-32.46 46.26L64.68 57.48L53.46 -39.66Z" fill="#a81d35"/><path d="M-1.77 -7.51A1.798 1.798 0 0 1 -0.16 -8.99A3.48 3.48 0 0 0 -1.77 -7.51Z" fill="#ff6d60"/></g><circle cx="0" cy="-7.2" r="2.9" fill="none" stroke="#1b1530" stroke-width="1.4"/><circle cx="-1.1" cy="-8.36" r="0.7" fill="#ffffff"/>
+<!-- pommeau -->
+<g clip-path="url(#embarena-e1-epee-pommeau)"><rect x="-5.8" y="7" width="11.6" height="11.6" fill="url(#embarena-e1-epee-or-horizontal)"/><path d="M-0.57 8.07A4.8 4.8 0 0 1 -0.57 17.53L9.85 76.62L93.4 12.8L9.85 -51.02Z" fill="#cd7e15"/><circle cx="-1.8" cy="11" r="1.2" fill="#ffffff"/></g>
+<path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+</g>
+</g>
+<g transform="translate(14 18) scale(0.56)">
+<!-- ===== DOUBLURE ===== -->
+<g fill="#1b1530" stroke="#1b1530" stroke-width="6"><path d="M32 5.4C39.6 9.4 47.6 10.4 55.6 9.4C57 31 52 47.6 32 58.6C12 47.6 7 31 8.4 9.4C16.4 10.4 24.4 9.4 32 5.4Z"/></g>
+<!-- bordure dorée -->
+<g clip-path="url(#embarena-e2-bouclier-bordure-doree)"><rect x="6" y="4.4" width="52" height="55.2" fill="url(#embarena-e2-bouclier-gold)"/><path d="M32 0L64 0L64 64L32 64Z" fill="#cd7e15"/><path d="M44 44L64 20L64 64L30 64Z" fill="#8f4c0a"/><path d="M11.6 12.6C18 13 25 12.2 31 9.2" fill="none" stroke="#fff7c4" stroke-width="1.3"/><path d="M11.2 16C11.2 28 14 38.6 21 46" fill="none" stroke="#fff7c4" stroke-width="1.1"/></g>
+<path d="M32 5.4C39.6 9.4 47.6 10.4 55.6 9.4C57 31 52 47.6 32 58.6C12 47.6 7 31 8.4 9.4C16.4 10.4 24.4 9.4 32 5.4Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<!-- champ bleu -->
+<g clip-path="url(#embarena-e2-bouclier-champ-bleu)"><rect x="11" y="9.44" width="42" height="44.56" fill="#3773d8"/><path d="M32 0L64 0L64 64L32 64Z" fill="#23499c"/><path d="M40 46L60 24L60 64L32 64Z" fill="#162f6c"/><path d="M14.2 14.2C14.4 26 16.4 35.6 22 43C19.8 42.6 16.2 36 15 28C14.4 23.6 14.2 18.6 14.2 14.2Z" fill="#6aaeff"/><path d="M17.4 13.4C21 13.6 24.4 13.2 27.6 12.2C24.6 14.2 21 15 17.4 15.2Z" fill="#ffffff"/></g>
+<path d="M32 10.44C38.08 13.64 44.48 14.44 50.88 13.64C52 30.92 48 44.2 32 53C16 44.2 12 30.92 13.12 13.64C19.52 14.44 25.92 13.64 32 10.44Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- champ : croix dorée du paladin -->
+<!-- croix dorée -->
+<g clip-path="url(#embarena-e2-bouclier-croix-doree)"><rect x="20.46" y="17.84" width="23.08" height="25.56" fill="url(#embarena-e2-bouclier-gold)"/><path d="M32 30L44 22.6L44 44L32 44Z" fill="#cd7e15"/><path d="M20 34.9L32 30L32 44L20 44Z" fill="#cd7e15"/><path d="M23.4 26.6C25.2 27.2 27 27.8 28.6 28.1M28.2 20.3L29.4 25.6" fill="none" stroke="#fff7c4" stroke-width="1.1"/></g>
+<path d="M29.52 27.52C28.9 23.8 27.66 21.32 26.42 18.84L37.58 18.84C36.34 21.32 35.1 23.8 34.48 27.52C37.58 26.9 40.06 25.66 42.54 24.42L42.54 35.58C40.06 34.34 37.58 33.1 34.48 32.48C35.1 36.2 36.34 39.3 37.58 42.4L26.42 42.4C27.66 39.3 28.9 36.2 29.52 32.48C26.42 33.1 23.94 34.34 21.46 35.58L21.46 24.42C23.94 25.66 26.42 26.9 29.52 27.52Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- bordure : rivets -->
+<circle cx="13.6" cy="13.2" r="1.5" fill="url(#embarena-e2-bouclier-gold)" stroke="#1b1530" stroke-width="1.1"/><circle cx="13.07" cy="12.67" r="0.48" fill="#ffffff"/><circle cx="50.4" cy="13.2" r="1.5" fill="url(#embarena-e2-bouclier-gold)" stroke="#1b1530" stroke-width="1.1"/><circle cx="49.88" cy="12.67" r="0.48" fill="#ffffff"/><circle cx="32" cy="53" r="1.5" fill="url(#embarena-e2-bouclier-gold)" stroke="#1b1530" stroke-width="1.1"/><circle cx="31.48" cy="52.48" r="0.48" fill="#ffffff"/>
+<path d="M13 2.4L14.63 5.57L17.8 7.2L14.63 8.83L13 12L11.37 8.83L8.2 7.2L11.37 5.57Z" fill="#ffffff" stroke="#1b1530" stroke-width="1.3"/>
+</g>
+<path d="M52 41.5L53.26 44.74L56.5 46L53.26 47.26L52 50.5L50.74 47.26L47.5 46L50.74 44.74Z" fill="#ffffff" stroke="#1b1530" stroke-width="1.3"/>
+</g>
+</svg>

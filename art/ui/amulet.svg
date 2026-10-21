@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « amulette » (préfixe amulet-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="amulet-c0"><path d="M32 26L47 41L32 59L17 41Z"/></clipPath><clipPath id="amulet-c1"><path d="M32 32L41 41L32 52L23 41Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M13 5C13 23 23 30 32 31C41 30 51 23 51 5" fill="none" stroke="#1b1530" stroke-width="7"/><path d="M13 5C13 23 23 30 32 31C41 30 51 23 51 5" fill="none" stroke="#f7bc2a" stroke-width="2.6"/><path d="M13 5C13 23 23 30 32 31C41 30 51 23 51 5" fill="none" stroke="#fff7c4" stroke-width="1" transform="translate(-0.6 -0.8)"/>
+<path d="M32 26L47 41L32 59L17 41Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#amulet-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#8f4c0a"/><path transform="translate(-1.28 -1.44)" d="M32 26L47 41L32 59L17 41Z" fill="#cd7e15"/><path transform="translate(-3.2 -3.52)" d="M32 26L47 41L32 59L17 41Z" fill="#f7bc2a"/><ellipse cx="26" cy="34.58" rx="6" ry="3.96" transform="rotate(-28 26 34.58)" fill="#fff7c4"/><circle cx="23" cy="32.6" r="2.1" fill="#ffffff"/></g><path d="M32 26L47 41L32 59L17 41Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<g clip-path="url(#amulet-c1)"><rect x="-8" y="-8" width="80" height="80" fill="#351868"/><path transform="translate(-0.8 -0.9)" d="M32 32L41 41L32 52L23 41Z" fill="#532b96"/><path transform="translate(-2 -2.2)" d="M32 32L41 41L32 52L23 41Z" fill="#7d47cc"/><ellipse cx="28.4" cy="37.2" rx="3.6" ry="2.4" transform="rotate(-28 28.4 37.2)" fill="#d6b8ff"/><circle cx="26.6" cy="36" r="1.5" fill="#ffffff"/></g><path d="M32 32L41 41L32 52L23 41Z" fill="none" stroke="#1b1530" stroke-width="1.6"/>
+</g>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « deux épées croisées » (préfixe swords-), générée par refonte/outils/icones.cjs -->
+<defs>
+<linearGradient id="swords-e0-epee-acier" x1="0" y1="0" x2="1" y2="0.35"><stop offset="0" stop-color="#f7f9ff"/><stop offset="0.45" stop-color="#c3cce0"/><stop offset="1" stop-color="#8a95b2"/></linearGradient>
+<linearGradient id="swords-e0-epee-or-horizontal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff7c4"/><stop offset="0.45" stop-color="#f7bc2a"/><stop offset="1" stop-color="#d98a16"/></linearGradient>
+<clipPath id="swords-e0-epee-lame"><path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z"/></clipPath>
+<clipPath id="swords-e0-epee-poignee-en-cuir"><path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z"/></clipPath>
+<clipPath id="swords-e0-epee-garde-doree"><path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z"/></clipPath>
+<clipPath id="swords-e0-epee-gemme-0-7-2"><path d="M-2.9 -7.2C-2.9 -8.8 -1.6 -10.1 0 -10.1C1.6 -10.1 2.9 -8.8 2.9 -7.2C2.9 -5.6 1.6 -4.3 0 -4.3C-1.6 -4.3 -2.9 -5.6 -2.9 -7.2Z"/></clipPath>
+<clipPath id="swords-e0-epee-pommeau"><path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z"/></clipPath>
+
+<linearGradient id="swords-e1-epee-acier" x1="0" y1="0" x2="1" y2="0.35"><stop offset="0" stop-color="#f7f9ff"/><stop offset="0.45" stop-color="#c3cce0"/><stop offset="1" stop-color="#8a95b2"/></linearGradient>
+<linearGradient id="swords-e1-epee-or-horizontal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff7c4"/><stop offset="0.45" stop-color="#f7bc2a"/><stop offset="1" stop-color="#d98a16"/></linearGradient>
+<clipPath id="swords-e1-epee-lame"><path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z"/></clipPath>
+<clipPath id="swords-e1-epee-poignee-en-cuir"><path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z"/></clipPath>
+<clipPath id="swords-e1-epee-garde-doree"><path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z"/></clipPath>
+<clipPath id="swords-e1-epee-gemme-0-7-2"><path d="M-2.9 -7.2C-2.9 -8.8 -1.6 -10.1 0 -10.1C1.6 -10.1 2.9 -8.8 2.9 -7.2C2.9 -5.6 1.6 -4.3 0 -4.3C-1.6 -4.3 -2.9 -5.6 -2.9 -7.2Z"/></clipPath>
+<clipPath id="swords-e1-epee-pommeau"><path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z"/></clipPath>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(-6 0)">
+<!-- ===== ÉPÉE (repère local : main en 0,0, lame vers le haut) ===== -->
+<!-- pivot arme : 20.4,43.4 -->
+<g transform="translate(20.4 43.4) rotate(45)">
+<!-- doublure -->
+<g fill="#1b1530" stroke="#1b1530" stroke-width="6"><path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z"/><path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z"/><path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z"/><path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z"/></g>
+<!-- lame -->
+<g clip-path="url(#swords-e0-epee-lame)"><rect x="-8" y="-51" width="16" height="44" fill="url(#swords-e0-epee-acier)"/><path d="M0 -52L9 -52L9 -6L0 -6Z" fill="#9ba7c3"/><path d="M4.4 -40L9 -40L9 -6L4.6 -6Z" fill="#6f7a9b"/><path d="M0 -12L0 -36" fill="none" stroke="#6f7a9b" stroke-width="2.6"/><path d="M-0.7 -13L-0.7 -35" fill="none" stroke="#ffffff" stroke-width="0.8"/><path d="M-4.6 -10.5L-4.2 -37L-1.2 -44" fill="none" stroke="#ffffff" stroke-width="1.4"/><path d="M5.4 -10L5.2 -36" fill="none" stroke="#eef2fa" stroke-width="1"/></g>
+<path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M-6 -47.7L-4.54 -44.86L-1.7 -43.4L-4.54 -41.94L-6 -39.1L-7.46 -41.94L-10.3 -43.4L-7.46 -44.86Z" fill="#ffffff" stroke="#1b1530" stroke-width="1.3"/>
+<!-- poignée en cuir -->
+<g clip-path="url(#swords-e0-epee-poignee-en-cuir)"><rect x="-4.7" y="-6" width="9.4" height="16.4" fill="#94593a"/><path d="M0.8 -6L5 -6L5 10L0.8 10Z" fill="#6a3a24"/><path d="M-3.7 -1.6L3.7 0.6M-3.7 2.6L3.7 4.8M-3.7 6.8L3.7 9" fill="none" stroke="#45230f" stroke-width="1.2"/><path d="M-2.2 -3L-2.2 8" fill="none" stroke="#c58a58" stroke-width="1.1"/></g>
+<path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- garde dorée -->
+<g clip-path="url(#swords-e0-epee-garde-doree)"><rect x="-17.6" y="-16" width="35.2" height="12.8" fill="url(#swords-e0-epee-or-horizontal)"/><path d="M-17 -9.6L17 -9.6L17 -2L-17 -2Z" fill="#cd7e15"/><path d="M6 -16L18 -16L18 -2L6 -2Z" fill="#cd7e15"/><path d="M12 -16L18 -16L18 -2L12 -2Z" fill="#8f4c0a"/><path d="M-14.8 -12.6L-6 -10.2" fill="none" stroke="#fff7c4" stroke-width="1.2"/></g>
+<path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+<!-- garde : gemme rouge -->
+<g clip-path="url(#swords-e0-epee-gemme-0-7-2)"><circle cx="0" cy="-7.2" r="3.9" fill="#e3343d"/><path d="M1.5 -9.66A2.9 2.9 0 0 1 -2.46 -5.7L-32.46 46.26L64.68 57.48L53.46 -39.66Z" fill="#a81d35"/><path d="M-1.77 -7.51A1.798 1.798 0 0 1 -0.16 -8.99A3.48 3.48 0 0 0 -1.77 -7.51Z" fill="#ff6d60"/></g><circle cx="0" cy="-7.2" r="2.9" fill="none" stroke="#1b1530" stroke-width="1.4"/><circle cx="-1.1" cy="-8.36" r="0.7" fill="#ffffff"/>
+<!-- pommeau -->
+<g clip-path="url(#swords-e0-epee-pommeau)"><rect x="-5.8" y="7" width="11.6" height="11.6" fill="url(#swords-e0-epee-or-horizontal)"/><path d="M-0.57 8.07A4.8 4.8 0 0 1 -0.57 17.53L9.85 76.62L93.4 12.8L9.85 -51.02Z" fill="#cd7e15"/><circle cx="-1.8" cy="11" r="1.2" fill="#ffffff"/></g>
+<path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+</g>
+</g>
+<g transform="translate(70 0) scale(-1 1)">
+<!-- ===== ÉPÉE (repère local : main en 0,0, lame vers le haut) ===== -->
+<!-- pivot arme : 20.4,43.4 -->
+<g transform="translate(20.4 43.4) rotate(45)">
+<!-- doublure -->
+<g fill="#1b1530" stroke="#1b1530" stroke-width="6"><path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z"/><path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z"/><path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z"/><path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z"/></g>
+<!-- lame -->
+<g clip-path="url(#swords-e1-epee-lame)"><rect x="-8" y="-51" width="16" height="44" fill="url(#swords-e1-epee-acier)"/><path d="M0 -52L9 -52L9 -6L0 -6Z" fill="#9ba7c3"/><path d="M4.4 -40L9 -40L9 -6L4.6 -6Z" fill="#6f7a9b"/><path d="M0 -12L0 -36" fill="none" stroke="#6f7a9b" stroke-width="2.6"/><path d="M-0.7 -13L-0.7 -35" fill="none" stroke="#ffffff" stroke-width="0.8"/><path d="M-4.6 -10.5L-4.2 -37L-1.2 -44" fill="none" stroke="#ffffff" stroke-width="1.4"/><path d="M5.4 -10L5.2 -36" fill="none" stroke="#eef2fa" stroke-width="1"/></g>
+<path d="M-7 -8L-6.4 -38L0 -50L6.4 -38L7 -8Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M-6 -47.7L-4.54 -44.86L-1.7 -43.4L-4.54 -41.94L-6 -39.1L-7.46 -41.94L-10.3 -43.4L-7.46 -44.86Z" fill="#ffffff" stroke="#1b1530" stroke-width="1.3"/>
+<!-- poignée en cuir -->
+<g clip-path="url(#swords-e1-epee-poignee-en-cuir)"><rect x="-4.7" y="-6" width="9.4" height="16.4" fill="#94593a"/><path d="M0.8 -6L5 -6L5 10L0.8 10Z" fill="#6a3a24"/><path d="M-3.7 -1.6L3.7 0.6M-3.7 2.6L3.7 4.8M-3.7 6.8L3.7 9" fill="none" stroke="#45230f" stroke-width="1.2"/><path d="M-2.2 -3L-2.2 8" fill="none" stroke="#c58a58" stroke-width="1.1"/></g>
+<path d="M-3.7 -5L3.7 -5L3.7 9.4L-3.7 9.4Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- garde dorée -->
+<g clip-path="url(#swords-e1-epee-garde-doree)"><rect x="-17.6" y="-16" width="35.2" height="12.8" fill="url(#swords-e1-epee-or-horizontal)"/><path d="M-17 -9.6L17 -9.6L17 -2L-17 -2Z" fill="#cd7e15"/><path d="M6 -16L18 -16L18 -2L6 -2Z" fill="#cd7e15"/><path d="M12 -16L18 -16L18 -2L12 -2Z" fill="#8f4c0a"/><path d="M-14.8 -12.6L-6 -10.2" fill="none" stroke="#fff7c4" stroke-width="1.2"/></g>
+<path d="M-16.6 -12.4C-16.6 -14 -15.2 -15 -13.6 -14.4L-4.6 -11.6L4.6 -11.6L13.6 -14.4C15.2 -15 16.6 -14 16.6 -12.4L16.6 -9.2C16.6 -7.6 15.2 -6.8 13.6 -7.2L4.8 -6.8C3.2 -4.2 -3.2 -4.2 -4.8 -6.8L-13.6 -7.2C-15.2 -6.8 -16.6 -7.6 -16.6 -9.2Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+<!-- garde : gemme rouge -->
+<g clip-path="url(#swords-e1-epee-gemme-0-7-2)"><circle cx="0" cy="-7.2" r="3.9" fill="#e3343d"/><path d="M1.5 -9.66A2.9 2.9 0 0 1 -2.46 -5.7L-32.46 46.26L64.68 57.48L53.46 -39.66Z" fill="#a81d35"/><path d="M-1.77 -7.51A1.798 1.798 0 0 1 -0.16 -8.99A3.48 3.48 0 0 0 -1.77 -7.51Z" fill="#ff6d60"/></g><circle cx="0" cy="-7.2" r="2.9" fill="none" stroke="#1b1530" stroke-width="1.4"/><circle cx="-1.1" cy="-8.36" r="0.7" fill="#ffffff"/>
+<!-- pommeau -->
+<g clip-path="url(#swords-e1-epee-pommeau)"><rect x="-5.8" y="7" width="11.6" height="11.6" fill="url(#swords-e1-epee-or-horizontal)"/><path d="M-0.57 8.07A4.8 4.8 0 0 1 -0.57 17.53L9.85 76.62L93.4 12.8L9.85 -51.02Z" fill="#cd7e15"/><circle cx="-1.8" cy="11" r="1.2" fill="#ffffff"/></g>
+<path d="M-4.8 12.8C-4.8 10.15 -2.65 8 0 8C2.65 8 4.8 10.15 4.8 12.8C4.8 15.45 2.65 17.6 0 17.6C-2.65 17.6 -4.8 15.45 -4.8 12.8Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+</g>
+</g>
+</g>
+</svg>

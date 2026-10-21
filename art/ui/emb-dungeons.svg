@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « donjons » (préfixe embdungeon-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="embdungeon-c0"><path d="M6 60V28C6 13 18 4 32 4C46 4 58 13 58 28V60Z"/></clipPath><clipPath id="embdungeon-c1"><path d="M18.5 38C18.5 27.5 25.25 23 32 23C38.75 23 45.5 27.5 45.5 38C45.5 43.25 42.5 45.5 40.25 46.25L40.25 51.5L23.75 51.5L23.75 46.25C21.5 45.5 18.5 43.25 18.5 38Z"/></clipPath><radialGradient id="embdungeon-h2"><stop offset="0" stop-color="#5dff9a" stop-opacity="0.9"/><stop offset="0.55" stop-color="#5dff9a" stop-opacity="0.315"/><stop offset="1" stop-color="#5dff9a" stop-opacity="0"/></radialGradient><radialGradient id="embdungeon-h3"><stop offset="0" stop-color="#5dff9a" stop-opacity="0.9"/><stop offset="0.55" stop-color="#5dff9a" stop-opacity="0.315"/><stop offset="1" stop-color="#5dff9a" stop-opacity="0"/></radialGradient></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M6 60V28C6 13 18 4 32 4C46 4 58 13 58 28V60Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#embdungeon-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#4a4466"/><path transform="translate(-1.28 -1.44)" d="M6 60V28C6 13 18 4 32 4C46 4 58 13 58 28V60Z" fill="#6e6890"/><path transform="translate(-3.2 -3.52)" d="M6 60V28C6 13 18 4 32 4C46 4 58 13 58 28V60Z" fill="#9a94b8"/><ellipse cx="11.2" cy="20.04" rx="4.8" ry="6.48" transform="rotate(-28 11.2 20.04)" fill="#d8d4ea"/><circle cx="8.8" cy="16.8" r="1.8" fill="#ffffff"/></g><path d="M6 60V28C6 13 18 4 32 4C46 4 58 13 58 28V60Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M6 40H14M50 40H58M6 50H14M50 50H58M18 9L21 15M46 9L43 15M32 4V10" fill="none" stroke="#4a4466" stroke-width="1.8"/>
+<path d="M15 60V30C15 20 22 13 32 13C42 13 49 20 49 30V60Z" fill="#241c3a" stroke="#1b1530" stroke-width="2"/>
+<path d="M18.5 38C18.5 27.5 25.25 23 32 23C38.75 23 45.5 27.5 45.5 38C45.5 43.25 42.5 45.5 40.25 46.25L40.25 51.5L23.75 51.5L23.75 46.25C21.5 45.5 18.5 43.25 18.5 38Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#embdungeon-c1)"><rect x="-8" y="-8" width="80" height="80" fill="#9c8a68"/><path transform="translate(-1.28 -1.44)" d="M18.5 38C18.5 27.5 25.25 23 32 23C38.75 23 45.5 27.5 45.5 38C45.5 43.25 42.5 45.5 40.25 46.25L40.25 51.5L23.75 51.5L23.75 46.25C21.5 45.5 18.5 43.25 18.5 38Z" fill="#cdbf9e"/><path transform="translate(-3.2 -3.52)" d="M18.5 38C18.5 27.5 25.25 23 32 23C38.75 23 45.5 27.5 45.5 38C45.5 43.25 42.5 45.5 40.25 46.25L40.25 51.5L23.75 51.5L23.75 46.25C21.5 45.5 18.5 43.25 18.5 38Z" fill="#f3ecd8"/><ellipse cx="26.6" cy="30.41" rx="5.4" ry="3.42" transform="rotate(-28 26.6 30.41)" fill="#ffffff"/><circle cx="23.9" cy="28.7" r="1.95" fill="#ffffff"/></g><path d="M18.5 38C18.5 27.5 25.25 23 32 23C38.75 23 45.5 27.5 45.5 38C45.5 43.25 42.5 45.5 40.25 46.25L40.25 51.5L23.75 51.5L23.75 46.25C21.5 45.5 18.5 43.25 18.5 38Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M22.18 38.75A4.2 3.75 0 1 0 30.57 38.75A4.2 3.75 0 1 0 22.18 38.75Z" fill="#1b1530"/>
+<circle cx="26.38" cy="39.13" r="4.5" fill="url(#embdungeon-h2)"/>
+<path d="M24.57 39.13A1.8 1.65 0 1 0 28.18 39.13A1.8 1.65 0 1 0 24.57 39.13Z" fill="#5dff9a"/>
+<path d="M25.1 38.52A0.68 0.68 0 1 0 26.45 38.52A0.68 0.68 0 1 0 25.1 38.52Z" fill="#ffffff"/>
+<path d="M33.42 38.75A4.2 3.75 0 1 0 41.83 38.75A4.2 3.75 0 1 0 33.42 38.75Z" fill="#1b1530"/>
+<circle cx="37.63" cy="39.13" r="4.5" fill="url(#embdungeon-h3)"/>
+<path d="M35.83 39.13A1.8 1.65 0 1 0 39.42 39.13A1.8 1.65 0 1 0 35.83 39.13Z" fill="#5dff9a"/>
+<path d="M36.35 38.52A0.68 0.68 0 1 0 37.7 38.52A0.68 0.68 0 1 0 36.35 38.52Z" fill="#ffffff"/>
+<path d="M32 42.5L33.95 45.5L30.05 45.5Z" fill="#1b1530"/>
+<path d="M28.25 47.75V51.5M32 47.75V51.5M35.75 47.75V51.5" fill="none" stroke="#1b1530" stroke-width="1.35"/>
+<path d="M19 60V30M27 60V18M37 60V18M45 60V30M15 48H49" fill="none" stroke="#6e6890" stroke-width="2.6"/>
+</g>
+</svg>

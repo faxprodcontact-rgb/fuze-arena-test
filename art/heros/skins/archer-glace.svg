@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300">
+<!-- Fuze Arena : ARCHER (préfixe ar-) : même style que le guerrier (référence art/guerrier.svg).
+     Chibi cartoon, lumière en haut à gauche, contour #1b1530.
+     Ordre : ombre au sol > corps (carquois derrière) > tête > arme. Chaque groupe commence par sa « doublure »
+     (mêmes formes en trait 7 = contour extérieur épais), puis les pièces (aplat + ombres découpées + contour 3). -->
+<defs>
+<linearGradient id="argl-ar-gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfeff"/><stop offset="0.45" stop-color="#cbedff"/><stop offset="1" stop-color="#b0ddf9"/></linearGradient>
+<linearGradient id="argl-ar-iris" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#081b43"/><stop offset="0.55" stop-color="#184795"/><stop offset="1" stop-color="#79c1fd"/></linearGradient>
+<clipPath id="argl-ar-tunsh"><path d="M140 150C146 176 148 200 148 220C151 232 154 242 156 254L174 254L174 150Z"/></clipPath>
+<clipPath id="argl-ar-eye1"><path d="M115 111C118 106 130 105 135 108C137 115 137 126 134 131C131 135 120 135 117 131C114 126 113 118 115 111Z"/></clipPath>
+<clipPath id="argl-ar-eye2"><path d="M150 110C153 106 160 106 163 109C164 116 164 126 162 131C160 134 153 134 151 131C149 126 149 117 150 110Z"/></clipPath>
+<clipPath id="argl-ar-mouth"><path d="M139 140C144 142.5 150 142 155 138.5C155 144 152 148.5 147 149C142 149.5 139.5 145.5 139 140Z"/></clipPath>
+<clipPath id="argl-ar-fleche-6-fut"><path d="M-1.8 8L1.8 8L1.8 -28L-1.8 -28Z"/></clipPath>
+<clipPath id="argl-ar-fleche-6-empennage"><path d="M0 -24C4 -27 7 -31 7.5 -35L7.5 -52C5 -49.5 2.5 -47.5 0 -47C-2.5 -47.5 -5 -49.5 -7.5 -52L-7.5 -35C-7 -31 -4 -27 0 -24Z"/></clipPath>
+<clipPath id="argl-ar-fleche-1-fut"><path d="M-1.8 8L1.8 8L1.8 -28L-1.8 -28Z"/></clipPath>
+<clipPath id="argl-ar-fleche-1-empennage"><path d="M0 -24C4 -27 7 -31 7.5 -35L7.5 -52C5 -49.5 2.5 -47.5 0 -47C-2.5 -47.5 -5 -49.5 -7.5 -52L-7.5 -35C-7 -31 -4 -27 0 -24Z"/></clipPath>
+<clipPath id="argl-ar-fleche-7-fut"><path d="M-1.8 8L1.8 8L1.8 -28L-1.8 -28Z"/></clipPath>
+<clipPath id="argl-ar-fleche-7-empennage"><path d="M0 -24C4 -27 7 -31 7.5 -35L7.5 -52C5 -49.5 2.5 -47.5 0 -47C-2.5 -47.5 -5 -49.5 -7.5 -52L-7.5 -35C-7 -31 -4 -27 0 -24Z"/></clipPath>
+<clipPath id="argl-ar-carquois-etui"><path d="M-14 2C-14 30 -13 70 -12 98C-8 104 8 104 12 98C13 70 14 30 14 2Z"/></clipPath>
+<clipPath id="argl-ar-carquois-bord"><path d="M-16 -4C-6 -7 6 -7 16 -4L16 9C6 6 -6 6 -16 9Z"/></clipPath>
+<clipPath id="argl-ar-bras-arriere-manche"><path d="M148 172C158 167 170 168 177 173L182 186C173 191 161 192 153 189Z"/></clipPath>
+<clipPath id="argl-ar-bras-arriere-brassard-cuir"><path d="M168 179C177 175 188 176 194 180L198 194C191 199 181 200 174 198Z"/></clipPath>
+<clipPath id="argl-ar-jambe-arriere-chausse"><path d="M134 234C142 231 152 232 158 236L166 268C158 270 150 270 143 268Z"/></clipPath>
+<clipPath id="argl-ar-jambe-arriere-botte"><path d="M142 263C150 261 160 261 167 263L168 278C178 279 188 283 189 288L189 292L140 292C138 284 139 274 142 263Z"/></clipPath>
+<clipPath id="argl-ar-jambe-arriere-revers-de-botte"><path d="M139 256C148 253 160 253 169 256L170 269L163.5 265L156 271L148.5 265L140 269Z"/></clipPath>
+<clipPath id="argl-ar-jambe-avant-chausse"><path d="M88 234C96 231 105 232 112 236L105 268C97 270 89 270 82 268Z"/></clipPath>
+<clipPath id="argl-ar-jambe-avant-botte"><path d="M80 263C88 261 98 261 105 263L106 278C115 279 123 283 123 288L123 292L76 292C74 284 76 274 80 263Z"/></clipPath>
+<clipPath id="argl-ar-jambe-avant-revers-de-botte"><path d="M77 256C86 253 98 253 107 256L108 269L101.5 265L94 271L86.5 265L78 269Z"/></clipPath>
+<clipPath id="argl-ar-tunique"><path d="M86 158C100 149 140 147 156 154C160 174 158 194 156 210C159 222 164 234 169 246C161 250 152 248 144 250L135.5 240L127 252C113 253 98 251 82 246C85 234 87 222 88 210C84 192 82 174 86 158Z"/></clipPath>
+<clipPath id="argl-ar-bandouliere"><path d="M97 176L109 172L162 205L157 216Z"/></clipPath>
+<clipPath id="argl-ar-ceinture"><path d="M87 206C108 213 134 213 157 205L158 218C134 226 108 226 89 220Z"/></clipPath>
+<clipPath id="argl-ar-boucle"><path d="M122 209L136 209C138 209 139 210 139 212L139 222C139 224 138 225 136 225L122 225C120 225 119 224 119 222L119 212C119 210 120 209 122 209Z"/></clipPath>
+<clipPath id="argl-ar-bras-avant-manche"><path d="M60 182C56 194 56 207 61 218L77 212C79 204 81 196 83 188Z"/></clipPath>
+<clipPath id="argl-ar-pelerine"><path d="M84 144C70 148 56 158 50 171C47 179 47 186 50 192L66 182L78 196L92 182L105 194L118 180L131 192L143 178L155 188L164 174L174 180C178 170 175 158 165 150C150 144 118 143 84 144Z"/></clipPath>
+<clipPath id="argl-ar-bras-avant-brassard-cuir"><path d="M60 214C66 207 72 204 76 205L96 221C92 226 89 231 87 234C76 230 66 224 60 214Z"/></clipPath>
+<clipPath id="argl-ar-bras-avant-poing"><path d="M86 223C86 217 90 214 96 214C102 214 107 217 107.5 223C108 230 104 236 97 237C90 238 86 233 86 227Z"/></clipPath>
+<clipPath id="argl-ar-bras-avant-pouce"><path d="M90 217C94 214 100 214 104 216C104 219 100 221 95 221C92 221 90 219 90 217Z"/></clipPath>
+<clipPath id="argl-ar-capuche-chaperon"><path d="M62 148C48 134 42 114 44 94C45 82 48 72 53 64C36 64 18 54 8 30C30 40 56 38 76 30C90 25 104 23 120 24C146 25 166 38 175 58C179 68 181 78 181 88C160 88 122 92 102 100C96 116 94 134 95 150C84 152 72 151 62 148Z"/></clipPath>
+<clipPath id="argl-ar-capuche-cote-lointain"><path d="M166 80C180 84 189 98 189 118C189 134 183 146 174 154L164 142Z"/></clipPath>
+<clipPath id="argl-ar-visage"><path d="M98 92C122 84 152 84 168 90C173 102 174 118 169 130C165 142 156 152 144 155C130 158 112 155 100 148C95 132 94 110 98 92Z"/></clipPath>
+<clipPath id="argl-ar-cheveux-frange"><path d="M98 92.5L178 79C180.5 87 179 95 174 100C172 96 169 93 165 92C165 98 163 102 159 105C158 99 154 95 150 93C150 100 147 105 142 108C141 101 137 96 132 94C132 99 129 103 124 105C123 100 120 97 116 95C115 102 110 108 103 113C100 106 98 99 98 92.5Z"/></clipPath>
+<clipPath id="argl-ar-capuche-bord-replie"><path d="M86 152C83 128 83 108 90 96C106 82 140 75 182 76L182.5 82.5C152 83.5 121 87.5 104 99.5C99 114 98 134 99 152Z"/></clipPath>
+<clipPath id="argl-ar-arc-bois"><path d="M5 0C5 -13 3 -27 -1 -38C-4 -47 -9 -56 -16 -67C-18 -71 -16 -77 -9 -80L-12 -84C-21 -81 -25 -72 -22 -64C-17 -56 -12 -47 -9 -38C-6 -27 -5 -13 -5 0C-5 13 -6 27 -9 38C-12 47 -17 56 -22 64C-25 72 -21 81 -12 84L-9 80C-16 77 -18 71 -16 67C-9 56 -4 47 -1 38C3 27 5 13 5 0Z"/></clipPath>
+<clipPath id="argl-ar-arc-poignee-cuir"><path d="M-6.5 -19C-2 -20 3 -20 6.5 -19L6.5 19C3 20 -2 20 -6.5 19Z"/></clipPath>
+<clipPath id="argl-ar-main-d-arme-poing"><path d="M-9 -11C-3 -13 5 -13 9 -10C12 -6 12 6 9 9C5 12 -3 12 -9 10C-12 6 -12 -6 -9 -11Z"/></clipPath>
+<clipPath id="argl-ar-main-d-arme-pouce"><path d="M-9 -9C-5 -13 1 -13 5 -10C4 -6 -2 -5 -8 -6Z"/></clipPath>
+<linearGradient id="argl-ic" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#bfeaff"/><stop offset="1" stop-color="#4aa6ff"/></linearGradient></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<!-- ===== OMBRE AU SOL ===== -->
+<ellipse cx="130" cy="291" rx="68" ry="9" fill="#1b1530" opacity="0.25"/>
+<ellipse cx="130" cy="291" rx="52" ry="6.5" fill="#1b1530" opacity="0.35"/>
+<!-- ===== CORPS ===== -->
+<!-- skin glace : dans le dos --><g transform="translate(98 192) scale(1) rotate(-30)"><path d="M0 0L-18 -33.599999999999994L0 -96L18 -33.599999999999994Z" fill="url(#argl-ic)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M0 -96L0 0L18 -33.599999999999994Z" fill="#7cc4ff" opacity="0.55"/><path d="M-8.1 -38.400000000000006L0 -81.6" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/></g><g transform="translate(114 186) scale(1) rotate(-10)"><path d="M0 0L-15 -25.9L0 -74L15 -25.9Z" fill="url(#argl-ic)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M0 -74L0 0L15 -25.9Z" fill="#7cc4ff" opacity="0.55"/><path d="M-6.75 -29.6L0 -62.9" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/></g><g transform="translate(82 212) scale(1) rotate(-56)"><path d="M0 0L-14 -24.5L0 -70L14 -24.5Z" fill="url(#argl-ic)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M0 -70L0 0L14 -24.5Z" fill="#7cc4ff" opacity="0.55"/><path d="M-6.3 -28L0 -59.5" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/></g><g transform="translate(168 190) scale(1) rotate(28)"><path d="M0 0L-13 -21L0 -60L13 -21Z" fill="url(#argl-ic)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M0 -60L0 0L13 -21Z" fill="#7cc4ff" opacity="0.55"/><path d="M-5.8500000000000005 -24L0 -51" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/></g><g transform="translate(152 182) scale(1) rotate(8)"><path d="M0 0L-11 -16.099999999999998L0 -46L11 -16.099999999999998Z" fill="url(#argl-ic)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M0 -46L0 0L11 -16.099999999999998Z" fill="#7cc4ff" opacity="0.55"/><path d="M-4.95 -18.400000000000002L0 -39.1" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/></g>
+<g>
+<!-- carquois (dans le dos, ouverture au-dessus de l'épaule proche) -->
+<g transform="translate(46 114) rotate(-30)">
+<g fill="#1b1530" stroke="#1b1530" stroke-width="7"><path d="M-14 2C-14 30 -13 70 -12 98C-8 104 8 104 12 98C13 70 14 30 14 2Z"/><path d="M-16 -4C-6 -7 6 -7 16 -4L16 9C6 6 -6 6 -16 9Z"/></g>
+<g transform="translate(-6 0) rotate(-16)">
+<!-- flèche -6 : fût -->
+<g clip-path="url(#argl-ar-fleche-6-fut)"><rect x="-3.8" y="-30" width="7.6" height="40" fill="#2a4969"/><path d="M0.4 -30L3 -30L3 10L0.4 10Z" fill="#1e3551"/></g>
+<path d="M-1.8 8L1.8 8L1.8 -28L-1.8 -28Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- flèche -6 : empennage -->
+<g clip-path="url(#argl-ar-fleche-6-empennage)"><rect x="-9.5" y="-54" width="19" height="32" fill="#ffffff"/><path d="M0 -54L9 -54L9 -22L0 -22Z" fill="#f6fcff"/><path d="M-9 -43L9 -43L9 -37.5L-9 -37.5Z" fill="#2f77d5"/><path d="M0 -43L9 -43L9 -37.5L0 -37.5Z" fill="#174795"/></g>
+<path d="M0 -24C4 -27 7 -31 7.5 -35L7.5 -52C5 -49.5 2.5 -47.5 0 -47C-2.5 -47.5 -5 -49.5 -7.5 -52L-7.5 -35C-7 -31 -4 -27 0 -24Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M0 -26L0 -47" fill="none" stroke="#1b1530" stroke-width="1.6"/>
+</g>
+<g transform="translate(1 0) rotate(0)">
+<!-- flèche 1 : fût -->
+<g clip-path="url(#argl-ar-fleche-1-fut)"><rect x="-3.8" y="-30" width="7.6" height="40" fill="#2a4969"/><path d="M0.4 -30L3 -30L3 10L0.4 10Z" fill="#1e3551"/></g>
+<path d="M-1.8 8L1.8 8L1.8 -28L-1.8 -28Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- flèche 1 : empennage -->
+<g clip-path="url(#argl-ar-fleche-1-empennage)"><rect x="-9.5" y="-54" width="19" height="32" fill="#ffffff"/><path d="M0 -54L9 -54L9 -22L0 -22Z" fill="#f6fcff"/><path d="M-9 -43L9 -43L9 -37.5L-9 -37.5Z" fill="#2f77d5"/><path d="M0 -43L9 -43L9 -37.5L0 -37.5Z" fill="#174795"/></g>
+<path d="M0 -24C4 -27 7 -31 7.5 -35L7.5 -52C5 -49.5 2.5 -47.5 0 -47C-2.5 -47.5 -5 -49.5 -7.5 -52L-7.5 -35C-7 -31 -4 -27 0 -24Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M0 -26L0 -47" fill="none" stroke="#1b1530" stroke-width="1.6"/>
+</g>
+<g transform="translate(7 0) rotate(15)">
+<!-- flèche 7 : fût -->
+<g clip-path="url(#argl-ar-fleche-7-fut)"><rect x="-3.8" y="-30" width="7.6" height="40" fill="#2a4969"/><path d="M0.4 -30L3 -30L3 10L0.4 10Z" fill="#1e3551"/></g>
+<path d="M-1.8 8L1.8 8L1.8 -28L-1.8 -28Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- flèche 7 : empennage -->
+<g clip-path="url(#argl-ar-fleche-7-empennage)"><rect x="-9.5" y="-54" width="19" height="32" fill="#ffffff"/><path d="M0 -54L9 -54L9 -22L0 -22Z" fill="#f6fcff"/><path d="M-9 -43L9 -43L9 -37.5L-9 -37.5Z" fill="#2f77d5"/><path d="M0 -43L9 -43L9 -37.5L0 -37.5Z" fill="#174795"/></g>
+<path d="M0 -24C4 -27 7 -31 7.5 -35L7.5 -52C5 -49.5 2.5 -47.5 0 -47C-2.5 -47.5 -5 -49.5 -7.5 -52L-7.5 -35C-7 -31 -4 -27 0 -24Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M0 -26L0 -47" fill="none" stroke="#1b1530" stroke-width="1.6"/>
+</g>
+<!-- carquois : étui -->
+<g clip-path="url(#argl-ar-carquois-etui)"><rect x="-16" y="0" width="32" height="106" fill="#2a4969"/><path d="M4 0C6 30 6 70 4 104L18 104L18 0Z" fill="#1e3652"/><path d="M-9 12C-10 40 -10 70 -9 96L-5 96C-6 70 -6 40 -5 12Z" fill="#3b6488"/><path d="M-14 40C-4 44 6 44 14 40" fill="none" stroke="#1b1530" stroke-width="2"/><path d="M-14 46C-4 50 6 50 14 46" fill="none" stroke="#15263f" stroke-width="1.6"/></g>
+<path d="M-14 2C-14 30 -13 70 -12 98C-8 104 8 104 12 98C13 70 14 30 14 2Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- carquois : bord -->
+<g clip-path="url(#argl-ar-carquois-bord)"><rect x="-18" y="-9" width="36" height="20" fill="#3b6488"/><path d="M5 -8L18 -8L18 12L6 12Z" fill="#2a4969"/><path d="M-13 2C-4 0 4 0 13 2" fill="none" stroke="#e0b8b0" stroke-width="1.5"/></g>
+<path d="M-16 -4C-6 -7 6 -7 16 -4L16 9C6 6 -6 6 -16 9Z" fill="none" stroke="#1b1530" stroke-width="2.5"/>
+</g>
+<g fill="#1b1530" stroke="#1b1530" stroke-width="7"><path d="M148 172C158 167 170 168 177 173L182 186C173 191 161 192 153 189Z"/><path d="M168 179C177 175 188 176 194 180L198 194C191 199 181 200 174 198Z"/><path d="M134 234C142 231 152 232 158 236L166 268C158 270 150 270 143 268Z"/><path d="M142 263C150 261 160 261 167 263L168 278C178 279 188 283 189 288L189 292L140 292C138 284 139 274 142 263Z"/><path d="M139 256C148 253 160 253 169 256L170 269L163.5 265L156 271L148.5 265L140 269Z"/><path d="M88 234C96 231 105 232 112 236L105 268C97 270 89 270 82 268Z"/><path d="M80 263C88 261 98 261 105 263L106 278C115 279 123 283 123 288L123 292L76 292C74 284 76 274 80 263Z"/><path d="M77 256C86 253 98 253 107 256L108 269L101.5 265L94 271L86.5 265L78 269Z"/><path d="M86 158C100 149 140 147 156 154C160 174 158 194 156 210C159 222 164 234 169 246C161 250 152 248 144 250L135.5 240L127 252C113 253 98 251 82 246C85 234 87 222 88 210C84 192 82 174 86 158Z"/><path d="M87 206C108 213 134 213 157 205L158 218C134 226 108 226 89 220Z"/><path d="M60 182C56 194 56 207 61 218L77 212C79 204 81 196 83 188Z"/><path d="M84 144C70 148 56 158 50 171C47 179 47 186 50 192L66 182L78 196L92 182L105 194L118 180L131 192L143 178L155 188L164 174L174 180C178 170 175 158 165 150C150 144 118 143 84 144Z"/><path d="M60 214C66 207 72 204 76 205L96 221C92 226 89 231 87 234C76 230 66 224 60 214Z"/><path d="M86 223C86 217 90 214 96 214C102 214 107 217 107.5 223C108 230 104 236 97 237C90 238 86 233 86 227Z"/><path d="M90 217C94 214 100 214 104 216C104 219 100 221 95 221C92 221 90 219 90 217Z"/></g>
+<!-- bras arrière : manche -->
+<g clip-path="url(#argl-ar-bras-arriere-manche)"><rect x="146" y="165" width="38" height="29" fill="#2059ad"/><path d="M140 186C152 192 166 192 184 184L184 200L140 200Z" fill="#10377b"/><path d="M150 172C158 170 166 171 172 176L172 166L150 166Z" fill="#0b2352"/></g>
+<path d="M148 172C158 167 170 168 177 173L182 186C173 191 161 192 153 189Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- bras arrière : brassard cuir -->
+<g clip-path="url(#argl-ar-bras-arriere-brassard-cuir)"><rect x="166" y="173" width="34" height="29" fill="#2a4969"/><path d="M176 180C182 188 184 196 182 206L196 206L196 180Z" fill="#1e3652"/><path d="M168 186C172 184 176 183 180 184" fill="none" stroke="#3b6488" stroke-width="2"/><path d="M173 186L176 199M180 185L183 198" fill="none" stroke="#15263f" stroke-width="1.6"/></g>
+<path d="M168 179C177 175 188 176 194 180L198 194C191 199 181 200 174 198Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe arrière : chausse -->
+<g clip-path="url(#argl-ar-jambe-arriere-chausse)"><rect x="132" y="229" width="36" height="43" fill="#1e3652"/><path d="M151 232C156 246 160 258 162 272L172 272L172 232Z" fill="#15263f"/><path d="M140 242L142 254" fill="none" stroke="#2a4969" stroke-width="2.5"/></g>
+<path d="M134 234C142 231 152 232 158 236L166 268C158 270 150 270 143 268Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe arrière : botte -->
+<g clip-path="url(#argl-ar-jambe-arriere-botte)"><rect x="136" y="259" width="55" height="35" fill="#2a4969"/><path d="M160 256C163 264 164 274 165 280C171 282 180 284 192 286L192 296L156 296Z" fill="#1e3652"/><path d="M133 287L193 287L193 296L133 296Z" fill="#15263f"/><path d="M146 274L146 281" fill="none" stroke="#3b6488" stroke-width="2.5"/><path d="M172 281C178 281 183 283 186 285" fill="none" stroke="#3b6488" stroke-width="2.5"/></g>
+<path d="M142 263C150 261 160 261 167 263L168 278C178 279 188 283 189 288L189 292L140 292C138 284 139 274 142 263Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe arrière : revers de botte -->
+<g clip-path="url(#argl-ar-jambe-arriere-revers-de-botte)"><rect x="137" y="251" width="35" height="22" fill="#3b6488"/><path d="M160 250L174 250L174 272L158 272Z" fill="#2a4969"/><path d="M141 258C150 255 160 255 167 258" fill="none" stroke="#e0b8b0" stroke-width="1.5"/></g>
+<path d="M139 256C148 253 160 253 169 256L170 269L163.5 265L156 271L148.5 265L140 269Z" fill="none" stroke="#1b1530" stroke-width="2.5"/>
+<!-- jambe avant : chausse -->
+<g clip-path="url(#argl-ar-jambe-avant-chausse)"><rect x="80" y="229" width="34" height="43" fill="#1e3652"/><path d="M103 232C104 246 102 258 100 272L114 272L114 232Z" fill="#15263f"/><path d="M92 242L90 254" fill="none" stroke="#2a4969" stroke-width="2.5"/></g>
+<path d="M88 234C96 231 105 232 112 236L105 268C97 270 89 270 82 268Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe avant : botte -->
+<g clip-path="url(#argl-ar-jambe-avant-botte)"><rect x="72" y="259" width="53" height="35" fill="#2a4969"/><path d="M97 256C99 264 100 274 101 280C106 282 114 284 126 286L126 296L92 296Z" fill="#1e3652"/><path d="M68 287L126 287L126 296L68 296Z" fill="#15263f"/><path d="M84 274L83.5 281" fill="none" stroke="#3b6488" stroke-width="2.5"/><path d="M108 281C114 281 118 283 120 285" fill="none" stroke="#3b6488" stroke-width="2.5"/></g>
+<path d="M80 263C88 261 98 261 105 263L106 278C115 279 123 283 123 288L123 292L76 292C74 284 76 274 80 263Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe avant : revers de botte -->
+<g clip-path="url(#argl-ar-jambe-avant-revers-de-botte)"><rect x="75" y="251" width="35" height="22" fill="#3b6488"/><path d="M98 250L112 250L112 272L96 272Z" fill="#2a4969"/><path d="M79 258C88 255 98 255 105 258" fill="none" stroke="#e0b8b0" stroke-width="1.5"/></g>
+<path d="M77 256C86 253 98 253 107 256L108 269L101.5 265L94 271L86.5 265L78 269Z" fill="none" stroke="#1b1530" stroke-width="2.5"/>
+<!-- tunique -->
+<g clip-path="url(#argl-ar-tunique)"><rect x="80" y="145" width="91" height="110" fill="#2059ad"/><path d="M140 150C146 176 148 200 148 220C151 232 154 242 156 254L174 254L174 150Z" fill="#10377b"/><path d="M90 168C88 184 88 198 90 210L96 210C94 196 94 182 96 168Z" fill="#4891e3"/><path d="M107 222C107 236 99.5 244 99.5 250L106.5 250C106.5 244 109 236 109 222Z" fill="#10377b"/><path d="M101.4 224C101.4 236 94 242 94 248L98 248C98 242 102.6 236 102.6 224Z" fill="#4891e3"/><path d="M121 224C121 238 117.5 246 117.5 252L124.5 252C124.5 246 123 238 123 224Z" fill="#10377b"/><path d="M115.4 224C115.4 237 111 244 111 250L115 250C115 244 116.6 237 116.6 224Z" fill="#4891e3"/><path d="M143 222C143 235 149 242 149 248L155 248C155 242 145 235 145 222Z" fill="#0b2352"/><path d="M80 176L92 182L105 194L118 180L131 192L143 178L155 188L164 174L174 180L174 200C150 206 110 206 80 196Z" fill="#10377b"/><path d="M84 218C108 226 134 226 160 216L160 228C134 236 108 236 84 230Z" fill="#10377b"/><path d="M82 246C98 251 113 253 127 252L135.5 240L144 250C152 248 161 250 169 246" fill="none" stroke="#4891e3" stroke-width="5"/><g clip-path="url(#argl-ar-tunsh)"><path d="M82 246C98 251 113 253 127 252L135.5 240L144 250C152 248 161 250 169 246" fill="none" stroke="#2059ad" stroke-width="5"/></g></g>
+<path d="M86 158C100 149 140 147 156 154C160 174 158 194 156 210C159 222 164 234 169 246C161 250 152 248 144 250L135.5 240L127 252C113 253 98 251 82 246C85 234 87 222 88 210C84 192 82 174 86 158Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- bandoulière -->
+<g clip-path="url(#argl-ar-bandouliere)"><rect x="95" y="170" width="69" height="48" fill="#2a4969"/><path d="M103 170L170 210L160 222Z" fill="#1e3652"/><path d="M101 176L156 209" fill="none" stroke="#3b6488" stroke-width="1.6"/></g>
+<path d="M97 176L109 172L162 205L157 216Z" fill="none" stroke="#1b1530" stroke-width="2.5"/>
+<!-- bandoulière : boucle -->
+<path d="M139.8 190.8L146.6 195.1L140.2 205.2L133.4 200.9Z" fill="url(#argl-ar-gold)" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M140 194.6L142.6 196.2L140.4 199.6L137.8 198Z" fill="#15263f"/>
+<path d="M137 192.5L141 191.5" fill="none" stroke="#fbfeff" stroke-width="1.2"/>
+<!-- ceinture -->
+<g clip-path="url(#argl-ar-ceinture)"><rect x="85" y="203" width="75" height="25" fill="#2a4969"/><path d="M86 215C106 222 134 222 158 213L158 230L86 230Z" fill="#1e3652"/><path d="M90 210C108 216 130 216 150 210" fill="none" stroke="#3b6488" stroke-width="1.6"/></g>
+<path d="M87 206C108 213 134 213 157 205L158 218C134 226 108 226 89 220Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- boucle -->
+<g clip-path="url(#argl-ar-boucle)"><rect x="117" y="207" width="24" height="20" fill="url(#argl-ar-gold)"/><path d="M118 219L140 219L140 227L118 227Z" fill="#a8d9f7"/><path d="M124 214L134 214L134 220L124 220Z" fill="#15263f"/><path d="M121.5 212L129 212" fill="none" stroke="#fbfeff" stroke-width="1.6"/></g>
+<path d="M122 209L136 209C138 209 139 210 139 212L139 222C139 224 138 225 136 225L122 225C120 225 119 224 119 222L119 212C119 210 120 209 122 209Z" fill="none" stroke="#1b1530" stroke-width="2.5"/>
+<!-- bras avant : manche -->
+<g clip-path="url(#argl-ar-bras-avant-manche)"><rect x="54" y="180" width="31" height="40" fill="#2059ad"/><path d="M72 182L88 182L86 216L74 216Z" fill="#10377b"/><path d="M62 194C61 202 62 208 64 213" fill="none" stroke="#4891e3" stroke-width="2.5"/></g>
+<path d="M60 182C56 194 56 207 61 218L77 212C79 204 81 196 83 188Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- pèlerine -->
+<g clip-path="url(#argl-ar-pelerine)"><rect x="45" y="141" width="135" height="57" fill="#2059ad"/><path d="M150 146C164 152 172 162 174 176L186 176L186 140Z" fill="#10377b"/><path d="M44 178L66 170L78 186L92 172L105 184L118 170L131 182L143 168L155 178L164 164L180 168L180 200L44 200Z" fill="#10377b"/><path d="M56 168C62 158 72 151 84 148C76 154 68 162 64 172Z" fill="#4891e3"/><path d="M85.6 158C85.6 177 75 190 75 196L81 196C81 190 86.4 177 86.4 158Z" fill="#10377b"/><path d="M79.7 160C79.7 175 68.4 184 68.4 190L71.6 190C71.6 184 80.3 175 80.3 160Z" fill="#4891e3"/><path d="M107.6 164C107.6 179 102 188 102 194L108 194C108 188 108.4 179 108.4 164Z" fill="#10377b"/><path d="M149.6 160C149.6 174 152 182 152 188L158 188C158 182 150.4 174 150.4 160Z" fill="#0b2352"/></g>
+<path d="M84 144C70 148 56 158 50 171C47 179 47 186 50 192L66 182L78 196L92 182L105 194L118 180L131 192L143 178L155 188L164 174L174 180C178 170 175 158 165 150C150 144 118 143 84 144Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- pèlerine : fibule (feuille dorée) -->
+<path d="M121 169C127 161 139 160 145 164C141 172 129 175 121 169Z" fill="url(#argl-ar-gold)" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M124 168.5C131 167 137 166 142.5 164.5" fill="none" stroke="#a8d9f7" stroke-width="1.4"/>
+<path d="M126 164.5C129 162.5 133 161.8 136 162" fill="none" stroke="#fbfeff" stroke-width="1.4"/>
+<!-- bras avant : brassard cuir -->
+<g clip-path="url(#argl-ar-bras-avant-brassard-cuir)"><rect x="58" y="202" width="40" height="34" fill="#2a4969"/><path d="M62 222C72 230 82 234 92 230L92 240L60 240Z" fill="#1e3652"/><path d="M66 211C72 207 76 207 78 208" fill="none" stroke="#3b6488" stroke-width="2"/><path d="M70 216L80 213M76 222L86 218M82 228L90 223" fill="none" stroke="#15263f" stroke-width="1.6"/></g>
+<path d="M60 214C66 207 72 204 76 205L96 221C92 226 89 231 87 234C76 230 66 224 60 214Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- bras avant : poing -->
+<g clip-path="url(#argl-ar-bras-avant-poing)"><rect x="84" y="212" width="26" height="28" fill="#f6dcd0"/><path d="M84 230C92 236 102 236 110 226L110 240L84 240Z" fill="#d8aaa8"/><path d="M89 222C89 219 91 217 94 216.5" fill="none" stroke="#fff0ec" stroke-width="2"/></g>
+<path d="M86 223C86 217 90 214 96 214C102 214 107 217 107.5 223C108 230 104 236 97 237C90 238 86 233 86 227Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<path d="M107.5 224.5L102 225M106.5 230L101 230M103 234.5L99 233.5" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- bras avant : pouce -->
+<g clip-path="url(#argl-ar-bras-avant-pouce)"><rect x="88" y="212" width="18" height="11" fill="#f6dcd0"/><path d="M90 219C94 222 100 222 105 218L105 224L90 224Z" fill="#d8aaa8"/></g>
+<path d="M90 217C94 214 100 214 104 216C104 219 100 221 95 221C92 221 90 219 90 217Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+</g>
+<!-- skin glace : derrière la tête -->
+<!-- ===== TÊTE ===== (pivot du cou : 128,150) -->
+<g transform="rotate(3 128 150)">
+<g fill="#1b1530" stroke="#1b1530" stroke-width="7"><path d="M62 148C48 134 42 114 44 94C45 82 48 72 53 64C36 64 18 54 8 30C30 40 56 38 76 30C90 25 104 23 120 24C146 25 166 38 175 58C179 68 181 78 181 88C160 88 122 92 102 100C96 116 94 134 95 150C84 152 72 151 62 148Z"/><path d="M166 80C180 84 189 98 189 118C189 134 183 146 174 154L164 142Z"/><path d="M98 92C122 84 152 84 168 90C173 102 174 118 169 130C165 142 156 152 144 155C130 158 112 155 100 148C95 132 94 110 98 92Z"/><path d="M86 152C83 128 83 108 90 96C106 82 140 75 182 76L182.5 82.5C152 83.5 121 87.5 104 99.5C99 114 98 134 99 152Z"/></g>
+<!-- capuche : chaperon -->
+<g clip-path="url(#argl-ar-capuche-chaperon)"><rect x="6" y="21" width="177" height="133" fill="#2059ad"/><path d="M118 20C150 24 172 46 176 84L192 84L192 18Z" fill="#10377b"/><path d="M44 112C52 128 66 140 90 142L96 154L40 154Z" fill="#10377b"/><path d="M8 30C22 46 38 54 58 55C61 61 58 70 51 78L2 78Z" fill="#10377b"/><path d="M36 62C44 64 52 63 57 60C57 64 55 67 52 70C46 68 40 66 36 62Z" fill="#0b2352"/><path d="M60 80C60 60 76 42 100 34C86 46 74 60 68 80Z" fill="#4891e3"/><path d="M12 33C32 43 56 41 74 34L76 39C58 46 32 48 14 37Z" fill="#4891e3"/><path d="M150 82C150 56 132 32 100 28" fill="none" stroke="#10377b" stroke-width="2.2"/><path d="M58 52C70 46 82 42 94 40" fill="none" stroke="#10377b" stroke-width="2"/><path d="M88 146C71.8 127.2 64.6 101 58 78C55.4 105 68.2 128.8 88 146Z" fill="#10377b"/><path d="M78 138C63.9 123.6 57.4 101.9 53 83C52.6 104.1 62.1 124.4 78 138Z" fill="#4891e3"/><path d="M74 147C62.5 133.3 57.6 116.4 52 98C50.4 119.6 59.5 134.7 74 147Z" fill="#10377b"/><path d="M63 134C55.7 125.7 51.8 114.2 48.5 103C48.2 115.8 54.3 126.3 63 134Z" fill="#4891e3"/></g>
+<path d="M62 148C48 134 42 114 44 94C45 82 48 72 53 64C36 64 18 54 8 30C30 40 56 38 76 30C90 25 104 23 120 24C146 25 166 38 175 58C179 68 181 78 181 88C160 88 122 92 102 100C96 116 94 134 95 150C84 152 72 151 62 148Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- capuche : côté lointain -->
+<g clip-path="url(#argl-ar-capuche-cote-lointain)"><rect x="162" y="78" width="29" height="78" fill="#0b2352"/><path d="M178 82C190 96 192 132 178 156L196 156L196 82Z" fill="#10377b"/></g>
+<path d="M166 80C180 84 189 98 189 118C189 134 183 146 174 154L164 142Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- visage -->
+<g clip-path="url(#argl-ar-visage)"><rect x="92" y="82" width="84" height="78" fill="#f6dcd0"/><path d="M172 96C166 122 158 142 128 156L180 160L180 96Z" fill="#d8aaa8"/><path d="M96 80L182 80L182 97C150 94 120 100 102 114L96 114Z" fill="#d8aaa8"/><ellipse cx="117" cy="138" rx="7" ry="4" fill="#ff8b7e" opacity="0.55"/><ellipse cx="163" cy="136" rx="4" ry="3" fill="#ff8b7e" opacity="0.5"/><ellipse cx="113" cy="135" rx="2.2" ry="1.4" fill="#ffffff" opacity="0.8"/></g>
+<path d="M98 92C122 84 152 84 168 90C173 102 174 118 169 130C165 142 156 152 144 155C130 158 112 155 100 148C95 132 94 110 98 92Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- cheveux : frange -->
+<g clip-path="url(#argl-ar-cheveux-frange)"><rect x="96" y="77" width="86.5" height="38" fill="#69a0cd"/><path d="M92 74L184 74L184 85.5C158 85.5 126 90 100 99Z" fill="#477aa9"/><path d="M170 88C172 92 172 96 174 100L182 100L182 88Z M156 92C158 96 159 101 159 105L164 106L164 92Z M137 93C140 98 142 103 142 108L150 108L150 93Z M118 95C121 99 123 102 124 105L131 105L131 95Z" fill="#477aa9"/><path d="M101 96C101 101 102 106 103 109M118 98C120 100 121 102 122 104M134 97C136 100 138 103 139 106M152 95C154 98 156 101 157 103" fill="none" stroke="#a8d3f3" stroke-width="2"/><path d="M112 98L122 95.5M131 93.5C136 92.5 141 91.9 146 91.6" fill="none" stroke="#426c91" stroke-width="2.2"/></g>
+<path d="M98 92.5L178 79C180.5 87 179 95 174 100C172 96 169 93 165 92C165 98 163 102 159 105C158 99 154 95 150 93C150 100 147 105 142 108C141 101 137 96 132 94C132 99 129 103 124 105C123 100 120 97 116 95C115 102 110 108 103 113C100 106 98 99 98 92.5Z" fill="none" stroke="#1b1530" stroke-width="2.5"/>
+<!-- visage : oeil proche (rond et ouvert = regard vif) -->
+<path d="M115 111C118 106 130 105 135 108C137 115 137 126 134 131C131 135 120 135 117 131C114 126 113 118 115 111Z" fill="#ffffff"/>
+<g clip-path="url(#argl-ar-eye1)"><ellipse cx="126" cy="122" rx="8" ry="10.5" fill="url(#argl-ar-iris)"/><ellipse cx="126.5" cy="121.5" rx="3.8" ry="5.4" fill="#1b1530"/><path d="M119.5 127C122.5 132.5 130 132.5 133 127C130 130.5 122.5 130.5 119.5 127Z" fill="#bde3ff"/></g>
+<circle cx="122" cy="116" r="4.2" fill="#ffffff"/><circle cx="130" cy="128" r="1.8" fill="#ffffff"/>
+<path d="M110 112C116 103 129 101 138 107L137 110.5C129 106 120 106 115 114L110 114Z" fill="#1b1530"/>
+<path d="M118 133C122 135 127 135 131 133" fill="none" stroke="#1b1530" stroke-width="1.6"/>
+<!-- visage : oeil lointain -->
+<path d="M150 110C153 106 160 106 163 109C164 116 164 126 162 131C160 134 153 134 151 131C149 126 149 117 150 110Z" fill="#ffffff"/>
+<g clip-path="url(#argl-ar-eye2)"><ellipse cx="157" cy="122" rx="5.6" ry="10" fill="url(#argl-ar-iris)"/><ellipse cx="157.6" cy="121.5" rx="2.7" ry="5.2" fill="#1b1530"/><path d="M152 127C154 131 159 131 162 127C159 129 155 129 152 127Z" fill="#bde3ff"/></g>
+<circle cx="154.4" cy="116" r="3.6" fill="#ffffff"/><circle cx="159.6" cy="128" r="1.3" fill="#ffffff"/>
+<path d="M148 111C151 105 160 103 166 107L168 110L165 110.5C161 108 154 108 150 113Z" fill="#1b1530"/>
+<path d="M153.5 132.8C156 134 159 134 161 132.6" fill="none" stroke="#1b1530" stroke-width="1.4"/>
+<!-- visage : sourcils (arqués et relevés = vif) -->
+<path d="M110 98.5C117 92.5 129 91.5 137 96.5L136 100.3C129 96.3 119 96.5 111.5 102Z" fill="#14243d" stroke="#14243d" stroke-width="1.2"/>
+<path d="M148.5 98.5C153 94 160 92.5 166.5 94L166.5 97.5C160.5 97 154.5 98 150.5 101.5Z" fill="#14243d" stroke="#14243d" stroke-width="1.2"/>
+<!-- visage : nez -->
+<path d="M146.5 127.5C148.5 129.5 148.2 131.8 145.2 132.4" fill="none" stroke="#c8705c" stroke-width="2"/>
+<!-- visage : bouche (petit sourire ouvert) -->
+<path d="M139 140C144 142.5 150 142 155 138.5C155 144 152 148.5 147 149C142 149.5 139.5 145.5 139 140Z" fill="#7a2433"/>
+<g clip-path="url(#argl-ar-mouth)"><ellipse cx="148.5" cy="149" rx="5.5" ry="3.6" fill="#e8706e"/></g>
+<path d="M139.6 140.6C144 142.6 150 142.2 154.6 139.2L154.4 141.4C150 144 144 144.4 140.4 142.6Z" fill="#ffffff"/>
+<path d="M139 140C144 142.5 150 142 155 138.5C155 144 152 148.5 147 149C142 149.5 139.5 145.5 139 140Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+<path d="M139 140L136 138.4" fill="none" stroke="#1b1530" stroke-width="2"/>
+<!-- capuche : bord replié -->
+<g clip-path="url(#argl-ar-capuche-bord-replie)"><rect x="81" y="73" width="103.5" height="81" fill="#2059ad"/><path d="M186 79.5C150 79.5 116 84 98.5 95C93 110 92 132 93 154L106 154C103 134 103 114 108 102C122 92 150 88 186 90Z" fill="#10377b"/><path d="M86 128C85 114 87 104 93 98C106 88 136 80.5 168 78.6" fill="none" stroke="#4891e3" stroke-width="2.5"/></g>
+<path d="M86 152C83 128 83 108 90 96C106 82 140 75 182 76L182.5 82.5C152 83.5 121 87.5 104 99.5C99 114 98 134 99 152Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+</g>
+<!-- skin glace : devant --><g transform="translate(100 66) scale(1) rotate(-24)"><path d="M0 0L-10 -14L0 -40L10 -14Z" fill="url(#argl-ic)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M0 -40L0 0L10 -14Z" fill="#7cc4ff" opacity="0.55"/><path d="M-4.5 -16L0 -34" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/></g><g transform="translate(154 64) scale(1) rotate(22)"><path d="M0 0L-10 -14L0 -40L10 -14Z" fill="url(#argl-ic)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M0 -40L0 0L10 -14Z" fill="#7cc4ff" opacity="0.55"/><path d="M-4.5 -16L0 -34" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/></g><g transform="translate(126 58) scale(1) rotate(0)"><path d="M0 0L-13 -21L0 -60L13 -21Z" fill="url(#argl-ic)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M0 -60L0 0L13 -21Z" fill="#7cc4ff" opacity="0.55"/><path d="M-5.8500000000000005 -24L0 -51" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/></g><g transform="translate(82 80) scale(1) rotate(-46)"><path d="M0 0L-8 -9.1L0 -26L8 -9.1Z" fill="url(#argl-ic)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M0 -26L0 0L8 -9.1Z" fill="#7cc4ff" opacity="0.55"/><path d="M-3.6 -10.4L0 -22.099999999999998" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/></g><g transform="translate(172 78) scale(1) rotate(44)"><path d="M0 0L-8 -9.1L0 -26L8 -9.1Z" fill="url(#argl-ic)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M0 -26L0 0L8 -9.1Z" fill="#7cc4ff" opacity="0.55"/><path d="M-3.6 -10.4L0 -22.099999999999998" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/></g>
+<!-- ===== ARME : arc (le poing fait partie du groupe) ===== -->
+<!-- pivot arme : 198,190 -->
+<g transform="translate(198 190) rotate(10)">
+<g fill="#1b1530" stroke="#1b1530" stroke-width="7"><path d="M5 0C5 -13 3 -27 -1 -38C-4 -47 -9 -56 -16 -67C-18 -71 -16 -77 -9 -80L-12 -84C-21 -81 -25 -72 -22 -64C-17 -56 -12 -47 -9 -38C-6 -27 -5 -13 -5 0C-5 13 -6 27 -9 38C-12 47 -17 56 -22 64C-25 72 -21 81 -12 84L-9 80C-16 77 -18 71 -16 67C-9 56 -4 47 -1 38C3 27 5 13 5 0Z"/><path d="M-6.5 -19C-2 -20 3 -20 6.5 -19L6.5 19C3 20 -2 20 -6.5 19Z"/><path d="M-9 -11C-3 -13 5 -13 9 -10C12 -6 12 6 9 9C5 12 -3 12 -9 10C-12 6 -12 -6 -9 -11Z"/><path d="M-9 -9C-5 -13 1 -13 5 -10C4 -6 -2 -5 -8 -6Z"/></g>
+<!-- arc : corde -->
+<path d="M-20 -70L-20 70" fill="none" stroke="#1b1530" stroke-width="3.8"/><path d="M-20 -70L-20 70" fill="none" stroke="#fff3d6" stroke-width="1.6"/>
+<!-- arc : bois -->
+<g clip-path="url(#argl-ar-arc-bois)"><rect x="-27" y="-86" width="34" height="172" fill="#2a4969"/><path d="M1.5 0C1.5 -13 -0.5 -26 -4 -37C-7 -46 -12 -55 -18.5 -65L-8 -88L20 -88L20 88L-8 88L-18.5 65C-12 55 -7 46 -4 37C-0.5 26 1.5 13 1.5 0Z" fill="#1e3551"/><path d="M-2.5 -14C-2.5 -25 -4 -33 -6.5 -40C-9.5 -48 -14 -56 -19.5 -63" fill="none" stroke="#3c6488" stroke-width="2"/><path d="M-2.5 14C-2.5 25 -4 33 -6.5 40C-9.5 48 -14 56 -19.5 63" fill="none" stroke="#3c6488" stroke-width="2"/><path d="M0 -24C-0.5 -28 -1.5 -32 -3 -35M-12 -58C-13.5 -60 -15 -62 -16.5 -64M-2.5 26C-3 29 -4 32 -5 34" fill="none" stroke="#15263f" stroke-width="1.4"/></g>
+<path d="M5 0C5 -13 3 -27 -1 -38C-4 -47 -9 -56 -16 -67C-18 -71 -16 -77 -9 -80L-12 -84C-21 -81 -25 -72 -22 -64C-17 -56 -12 -47 -9 -38C-6 -27 -5 -13 -5 0C-5 13 -6 27 -9 38C-12 47 -17 56 -22 64C-25 72 -21 81 -12 84L-9 80C-16 77 -18 71 -16 67C-9 56 -4 47 -1 38C3 27 5 13 5 0Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- arc : bagues dorées et embouts -->
+<path d="M-12.5 -47L-2 -50L0.5 -43.5L-9.5 -40.5Z" fill="url(#argl-ar-gold)" stroke="#1b1530" stroke-width="1.8"/>
+<path d="M-12.5 47L-2 50L0.5 43.5L-9.5 40.5Z" fill="url(#argl-ar-gold)" stroke="#1b1530" stroke-width="1.8"/>
+<path d="M-11 -47.5L-4 -49.5" fill="none" stroke="#fbfeff" stroke-width="1.2"/>
+<circle cx="-10.5" cy="-82" r="3.4" fill="url(#argl-ar-gold)" stroke="#1b1530" stroke-width="1.8"/><circle cx="-11.6" cy="-83.2" r="1" fill="#ffffff"/>
+<circle cx="-10.5" cy="82" r="3.4" fill="url(#argl-ar-gold)" stroke="#1b1530" stroke-width="1.8"/>
+<!-- arc : poignée cuir -->
+<g clip-path="url(#argl-ar-arc-poignee-cuir)"><rect x="-8.5" y="-22" width="17" height="44" fill="#2a4969"/><path d="M1.5 -21L9 -21L9 21L1.5 21Z" fill="#1e3652"/><path d="M-6.5 -17L6.5 -14M-6.5 14L6.5 17" fill="none" stroke="#15263f" stroke-width="1.6"/></g>
+<path d="M-6.5 -19C-2 -20 3 -20 6.5 -19L6.5 19C3 20 -2 20 -6.5 19Z" fill="none" stroke="#1b1530" stroke-width="2.5"/>
+<!-- main d'arme : poing -->
+<g clip-path="url(#argl-ar-main-d-arme-poing)"><rect x="-14" y="-15" width="28" height="29" fill="#f6dcd0"/><path d="M4 -14C8 -6 8 4 4 14L14 14L14 -14Z" fill="#d8aaa8"/><path d="M-7 2C-5 6 -1 8 3 8" fill="none" stroke="#fff0ec" stroke-width="2"/></g>
+<path d="M-9 -11C-3 -13 5 -13 9 -10C12 -6 12 6 9 9C5 12 -3 12 -9 10C-12 6 -12 -6 -9 -11Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<path d="M4.5 -2.5C7 -2.5 9 -2 11 -1M4.5 4C7 4 9 4.5 10.5 5.5" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- main d'arme : pouce -->
+<g clip-path="url(#argl-ar-main-d-arme-pouce)"><rect x="-11" y="-15" width="18" height="12" fill="#f6dcd0"/><path d="M-10 -7C-4 -5 2 -6 6 -9L6 -4L-10 -4Z" fill="#d8aaa8"/></g>
+<path d="M-9 -9C-5 -13 1 -13 5 -10C4 -6 -2 -5 -8 -6Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+</g>
+</g>
+</svg>

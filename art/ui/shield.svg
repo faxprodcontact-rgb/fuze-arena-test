@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : icône d'interface BOUCLIER bleu et or (préfixe bouclier-). Style de la refonte : contour #1b1530, lumière en haut à gauche. -->
+<defs>
+<linearGradient id="bouclier-gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff7c4"/><stop offset="0.45" stop-color="#f7bc2a"/><stop offset="1" stop-color="#d98a16"/></linearGradient>
+<clipPath id="bouclier-bordure-doree"><path d="M32 5.4C39.6 9.4 47.6 10.4 55.6 9.4C57 31 52 47.6 32 58.6C12 47.6 7 31 8.4 9.4C16.4 10.4 24.4 9.4 32 5.4Z"/></clipPath>
+<clipPath id="bouclier-champ-bleu"><path d="M32 10.44C38.08 13.64 44.48 14.44 50.88 13.64C52 30.92 48 44.2 32 53C16 44.2 12 30.92 13.12 13.64C19.52 14.44 25.92 13.64 32 10.44Z"/></clipPath>
+<clipPath id="bouclier-croix-doree"><path d="M29.52 27.52C28.9 23.8 27.66 21.32 26.42 18.84L37.58 18.84C36.34 21.32 35.1 23.8 34.48 27.52C37.58 26.9 40.06 25.66 42.54 24.42L42.54 35.58C40.06 34.34 37.58 33.1 34.48 32.48C35.1 36.2 36.34 39.3 37.58 42.4L26.42 42.4C27.66 39.3 28.9 36.2 29.52 32.48C26.42 33.1 23.94 34.34 21.46 35.58L21.46 24.42C23.94 25.66 26.42 26.9 29.52 27.52Z"/></clipPath>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<!-- ===== DOUBLURE ===== -->
+<g fill="#1b1530" stroke="#1b1530" stroke-width="6"><path d="M32 5.4C39.6 9.4 47.6 10.4 55.6 9.4C57 31 52 47.6 32 58.6C12 47.6 7 31 8.4 9.4C16.4 10.4 24.4 9.4 32 5.4Z"/></g>
+<!-- bordure dorée -->
+<g clip-path="url(#bouclier-bordure-doree)"><rect x="6" y="4.4" width="52" height="55.2" fill="url(#bouclier-gold)"/><path d="M32 0L64 0L64 64L32 64Z" fill="#cd7e15"/><path d="M44 44L64 20L64 64L30 64Z" fill="#8f4c0a"/><path d="M11.6 12.6C18 13 25 12.2 31 9.2" fill="none" stroke="#fff7c4" stroke-width="1.3"/><path d="M11.2 16C11.2 28 14 38.6 21 46" fill="none" stroke="#fff7c4" stroke-width="1.1"/></g>
+<path d="M32 5.4C39.6 9.4 47.6 10.4 55.6 9.4C57 31 52 47.6 32 58.6C12 47.6 7 31 8.4 9.4C16.4 10.4 24.4 9.4 32 5.4Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<!-- champ bleu -->
+<g clip-path="url(#bouclier-champ-bleu)"><rect x="11" y="9.44" width="42" height="44.56" fill="#3773d8"/><path d="M32 0L64 0L64 64L32 64Z" fill="#23499c"/><path d="M40 46L60 24L60 64L32 64Z" fill="#162f6c"/><path d="M14.2 14.2C14.4 26 16.4 35.6 22 43C19.8 42.6 16.2 36 15 28C14.4 23.6 14.2 18.6 14.2 14.2Z" fill="#6aaeff"/><path d="M17.4 13.4C21 13.6 24.4 13.2 27.6 12.2C24.6 14.2 21 15 17.4 15.2Z" fill="#ffffff"/></g>
+<path d="M32 10.44C38.08 13.64 44.48 14.44 50.88 13.64C52 30.92 48 44.2 32 53C16 44.2 12 30.92 13.12 13.64C19.52 14.44 25.92 13.64 32 10.44Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- champ : croix dorée du paladin -->
+<!-- croix dorée -->
+<g clip-path="url(#bouclier-croix-doree)"><rect x="20.46" y="17.84" width="23.08" height="25.56" fill="url(#bouclier-gold)"/><path d="M32 30L44 22.6L44 44L32 44Z" fill="#cd7e15"/><path d="M20 34.9L32 30L32 44L20 44Z" fill="#cd7e15"/><path d="M23.4 26.6C25.2 27.2 27 27.8 28.6 28.1M28.2 20.3L29.4 25.6" fill="none" stroke="#fff7c4" stroke-width="1.1"/></g>
+<path d="M29.52 27.52C28.9 23.8 27.66 21.32 26.42 18.84L37.58 18.84C36.34 21.32 35.1 23.8 34.48 27.52C37.58 26.9 40.06 25.66 42.54 24.42L42.54 35.58C40.06 34.34 37.58 33.1 34.48 32.48C35.1 36.2 36.34 39.3 37.58 42.4L26.42 42.4C27.66 39.3 28.9 36.2 29.52 32.48C26.42 33.1 23.94 34.34 21.46 35.58L21.46 24.42C23.94 25.66 26.42 26.9 29.52 27.52Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- bordure : rivets -->
+<circle cx="13.6" cy="13.2" r="1.5" fill="url(#bouclier-gold)" stroke="#1b1530" stroke-width="1.1"/><circle cx="13.07" cy="12.67" r="0.48" fill="#ffffff"/><circle cx="50.4" cy="13.2" r="1.5" fill="url(#bouclier-gold)" stroke="#1b1530" stroke-width="1.1"/><circle cx="49.88" cy="12.67" r="0.48" fill="#ffffff"/><circle cx="32" cy="53" r="1.5" fill="url(#bouclier-gold)" stroke="#1b1530" stroke-width="1.1"/><circle cx="31.48" cy="52.48" r="0.48" fill="#ffffff"/>
+<path d="M13 2.4L14.63 5.57L17.8 7.2L14.63 8.83L13 12L11.37 8.83L8.2 7.2L11.37 5.57Z" fill="#ffffff" stroke="#1b1530" stroke-width="1.3"/>
+</g>
+</svg>

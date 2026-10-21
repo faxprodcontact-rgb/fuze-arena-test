@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « bulle de discussion » (préfixe chat-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="chat-c0"><path d="M8 15C8 10 12 7 17 7L47 7C52 7 56 10 56 15L56 35C56 40 52 43 47 43L27 43L15 54L18 43L17 43C12 43 8 40 8 35Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M8 15C8 10 12 7 17 7L47 7C52 7 56 10 56 15L56 35C56 40 52 43 47 43L27 43L15 54L18 43L17 43C12 43 8 40 8 35Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#chat-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#9aa2bd"/><path transform="translate(-1.28 -1.44)" d="M8 15C8 10 12 7 17 7L47 7C52 7 56 10 56 15L56 35C56 40 52 43 47 43L27 43L15 54L18 43L17 43C12 43 8 40 8 35Z" fill="#cdd3e2"/><path transform="translate(-3.2 -3.52)" d="M8 15C8 10 12 7 17 7L47 7C52 7 56 10 56 15L56 35C56 40 52 43 47 43L27 43L15 54L18 43L17 43C12 43 8 40 8 35Z" fill="#f4f6fb"/><ellipse cx="22.4" cy="19.22" rx="9.6" ry="5.64" transform="rotate(-28 22.4 19.22)" fill="#ffffff"/><circle cx="17.6" cy="16.4" r="2.95" fill="#ffffff"/></g><path d="M8 15C8 10 12 7 17 7L47 7C52 7 56 10 56 15L56 35C56 40 52 43 47 43L27 43L15 54L18 43L17 43C12 43 8 40 8 35Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M17.2 25A3.8 3.8 0 1 0 24.8 25A3.8 3.8 0 1 0 17.2 25Z" fill="#3773d8" stroke="#1b1530" stroke-width="1.6"/>
+<path d="M28.2 25A3.8 3.8 0 1 0 35.8 25A3.8 3.8 0 1 0 28.2 25Z" fill="#3773d8" stroke="#1b1530" stroke-width="1.6"/>
+<path d="M39.2 25A3.8 3.8 0 1 0 46.8 25A3.8 3.8 0 1 0 39.2 25Z" fill="#3773d8" stroke="#1b1530" stroke-width="1.6"/>
+</g>
+</svg>

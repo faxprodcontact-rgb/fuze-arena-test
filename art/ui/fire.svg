@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « feu » (préfixe fire-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="fire-c0"><path d="M32 4C36 14 48 20 50 34C52 48 43 59 32 59C21 59 12 50 14 37C15 29 20 25 22 18C26 24 26 28 28 30C30 22 28 12 32 4Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 4C36 14 48 20 50 34C52 48 43 59 32 59C21 59 12 50 14 37C15 29 20 25 22 18C26 24 26 28 28 30C30 22 28 12 32 4Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#fire-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#8a1e0e"/><path transform="translate(-1.28 -1.44)" d="M32 4C36 14 48 20 50 34C52 48 43 59 32 59C21 59 12 50 14 37C15 29 20 25 22 18C26 24 26 28 28 30C30 22 28 12 32 4Z" fill="#c83a14"/><path transform="translate(-3.2 -3.52)" d="M32 4C36 14 48 20 50 34C52 48 43 59 32 59C21 59 12 50 14 37C15 29 20 25 22 18C26 24 26 28 28 30C30 22 28 12 32 4Z" fill="#ff5a1f"/><ellipse cx="24" cy="18.3" rx="8" ry="6.6" transform="rotate(-28 24 18.3)" fill="#ffb08a"/><circle cx="20" cy="15" r="2.6" fill="#ffffff"/></g><path d="M32 4C36 14 48 20 50 34C52 48 43 59 32 59C21 59 12 50 14 37C15 29 20 25 22 18C26 24 26 28 28 30C30 22 28 12 32 4Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M32 22C36 30 43 34 43 44C43 52 38 57 32 57C26 57 21 52 22 45C23 40 26 38 27 34C29 38 30 40 31 40C31 34 30 28 32 22Z" fill="#ffb02e"/>
+<path d="M32 38C34 43 38 46 38 50C38 54 35 56 32 56C29 56 26 54 26 50C26 47 29 45 32 38Z" fill="#fff3a0"/>
+</g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « médaille 2 » (préfixe medal2-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="medal2-c0"><path d="M18 3L30 3L35 22L26 26Z"/></clipPath><clipPath id="medal2-c1"><path d="M46 3L34 3L29 22L38 26Z"/></clipPath><clipPath id="medal2-c2"><path d="M14 40A18 18 0 1 0 50 40A18 18 0 1 0 14 40Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M18 3L30 3L35 22L26 26Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#medal2-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#3773d8"/><path transform="translate(-0.56 -0.63)" d="M18 3L30 3L35 22L26 26Z" fill="#3773d8"/><path transform="translate(-1.4 -1.54)" d="M18 3L30 3L35 22L26 26Z" fill="#3773d8"/></g><path d="M18 3L30 3L35 22L26 26Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M46 3L34 3L29 22L38 26Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#medal2-c1)"><rect x="-8" y="-8" width="80" height="80" fill="#e3343d"/><path transform="translate(-0.56 -0.63)" d="M46 3L34 3L29 22L38 26Z" fill="#e3343d"/><path transform="translate(-1.4 -1.54)" d="M46 3L34 3L29 22L38 26Z" fill="#e3343d"/></g><path d="M46 3L34 3L29 22L38 26Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M14 40A18 18 0 1 0 50 40A18 18 0 1 0 14 40Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#medal2-c2)"><rect x="-8" y="-8" width="80" height="80" fill="#77819c"/><path transform="translate(-1.28 -1.44)" d="M14 40A18 18 0 1 0 50 40A18 18 0 1 0 14 40Z" fill="#a8b2c8"/><path transform="translate(-3.2 -3.52)" d="M14 40A18 18 0 1 0 50 40A18 18 0 1 0 14 40Z" fill="#d4dae8"/><ellipse cx="24.8" cy="31.36" rx="7.2" ry="4.32" transform="rotate(-28 24.8 31.36)" fill="#ffffff"/><circle cx="21.2" cy="29.2" r="2.4" fill="#ffffff"/></g><path d="M14 40A18 18 0 1 0 50 40A18 18 0 1 0 14 40Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M19.5 40A12.5 12.5 0 1 0 44.5 40A12.5 12.5 0 1 0 19.5 40Z" fill="none" stroke="#1b1530" stroke-width="1.6" stroke-opacity="0.35"/>
+<path d="M27 34C28 29 37 29 37 34C37 39 27 44 27 49H38" fill="none" stroke="#77819c" stroke-width="4"/>
+</g>
+</svg>

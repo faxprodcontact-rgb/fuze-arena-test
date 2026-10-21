@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+      <stop offset="0" stop-color="#4a2c8f"/>
+      <stop offset="0.55" stop-color="#25174d"/>
+      <stop offset="1" stop-color="#0f0a1e"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffd84a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd84a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="blade" x1="0" x2="1">
+      <stop offset="0" stop-color="#8f9aa8"/>
+      <stop offset="0.45" stop-color="#f4f8fc"/>
+      <stop offset="0.55" stop-color="#d9e1ea"/>
+      <stop offset="1" stop-color="#7d8896"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff1a8"/>
+      <stop offset="0.45" stop-color="#ffcf3f"/>
+      <stop offset="1" stop-color="#c47a12"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5a92a"/>
+      <stop offset="1" stop-color="#8a4d08"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d83a4a"/>
+      <stop offset="0.6" stop-color="#9c1f35"/>
+      <stop offset="1" stop-color="#5e1024"/>
+    </linearGradient>
+    <linearGradient id="grip" x1="0" x2="1">
+      <stop offset="0" stop-color="#3a2416"/>
+      <stop offset="0.5" stop-color="#7a4e2a"/>
+      <stop offset="1" stop-color="#3a2416"/>
+    </linearGradient>
+    <symbol id="sword" viewBox="0 0 120 470">
+      <path d="M60 0 L78 34 L78 330 L42 330 L42 34 Z" fill="url(#blade)" stroke="#16121f" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M60 22 L60 322" stroke="#ffffff" stroke-opacity="0.55" stroke-width="3"/>
+      <rect x="4" y="326" width="112" height="22" rx="11" fill="url(#gold)" stroke="#16121f" stroke-width="6"/>
+      <rect x="49" y="348" width="22" height="76" rx="6" fill="url(#grip)" stroke="#16121f" stroke-width="6"/>
+      <circle cx="60" cy="440" r="20" fill="url(#gold)" stroke="#16121f" stroke-width="6"/>
+    </symbol>
+  </defs>
+
+  <clipPath id="frame"><rect width="512" height="512" rx="112"/></clipPath>
+  <g clip-path="url(#frame)">
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- rayons de lumière -->
+  <g opacity="0.16" fill="#ffd84a">
+    <path d="M256 250 L200 -20 L312 -20 Z"/>
+    <path d="M256 250 L-20 120 L-20 230 Z"/>
+    <path d="M256 250 L532 120 L532 230 Z"/>
+    <path d="M256 250 L60 532 L150 532 Z"/>
+    <path d="M256 250 L452 532 L362 532 Z"/>
+  </g>
+  <circle cx="256" cy="262" r="210" fill="url(#glow)"/>
+
+  <!-- épées croisées derrière le blason -->
+  <use href="#sword" x="190" y="-26" width="132" height="516" transform="rotate(-44 256 262)"/>
+  <use href="#sword" x="190" y="-26" width="132" height="516" transform="rotate(44 256 262)"/>
+
+  <!-- blason -->
+  <g transform="translate(256 270) scale(0.9) translate(-256 -270)">
+  <path d="M256 104 C306 124 352 126 392 118 L392 256 C392 346 334 404 256 436 C178 404 120 346 120 256 L120 118 C160 126 206 124 256 104 Z"
+        fill="url(#goldDark)" stroke="#16121f" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M256 124 C300 141 340 144 372 138 L372 256 C372 333 323 384 256 413 C189 384 140 333 140 256 L140 138 C172 144 212 141 256 124 Z"
+        fill="url(#gold)"/>
+  <path d="M256 146 C294 160 326 163 352 159 L352 256 C352 320 312 364 256 390 C200 364 160 320 160 256 L160 159 C186 163 218 160 256 146 Z"
+        fill="url(#shield)" stroke="#16121f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M256 160 C290 172 318 175 340 172 L340 214 C300 222 220 222 172 214 L172 172 C194 175 222 172 256 160 Z" fill="#ffffff" opacity="0.13"/>
+
+  <!-- lettre F -->
+  <g transform="translate(0 4)">
+    <path d="M214 196 H316 L306 236 H258 V262 H300 L290 300 H258 V352 H214 Z" fill="#16121f" transform="translate(6 8)" opacity="0.6"/>
+    <path d="M214 196 H316 L306 236 H258 V262 H300 L290 300 H258 V352 H214 Z"
+          fill="url(#gold)" stroke="#16121f" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M222 204 H304" stroke="#fffbe0" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  </g>
+  <!-- étincelles -->
+  <g fill="#fff6c8">
+    <path d="M404 92 l7 19 19 7 -19 7 -7 19 -7 -19 -19 -7 19 -7 Z"/>
+    <path d="M104 380 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z" opacity="0.85"/>
+    <path d="M420 392 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 Z" opacity="0.7"/>
+  </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « dé » (préfixe dice-), générée par refonte/outils/icones.cjs -->
+<defs></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 6L56 17L56 46L32 58L8 46L8 17Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/>
+<path d="M32 6L56 17L32 28L8 17Z" fill="#ffffff" stroke="#1b1530" stroke-width="2"/>
+<path d="M8 17L32 28L32 58L8 46Z" fill="#e4e8f4" stroke="#1b1530" stroke-width="2"/>
+<path d="M32 28L56 17L56 46L32 58Z" fill="#b8c0d8" stroke="#1b1530" stroke-width="2"/>
+<path d="M28.6 17A3.4 2 0 1 0 35.4 17A3.4 2 0 1 0 28.6 17Z" fill="#1b1530"/>
+<path d="M12.6 29A2.4 3 0 1 0 17.4 29A2.4 3 0 1 0 12.6 29Z" fill="#1b1530"/>
+<path d="M22.6 45A2.4 3 0 1 0 27.4 45A2.4 3 0 1 0 22.6 45Z" fill="#1b1530"/>
+<path d="M36.6 32A2.4 3 0 1 0 41.4 32A2.4 3 0 1 0 36.6 32Z" fill="#1b1530"/>
+<path d="M41.6 38A2.4 3 0 1 0 46.4 38A2.4 3 0 1 0 41.6 38Z" fill="#1b1530"/>
+<path d="M46.6 44A2.4 3 0 1 0 51.4 44A2.4 3 0 1 0 46.6 44Z" fill="#1b1530"/>
+</g>
+</svg>

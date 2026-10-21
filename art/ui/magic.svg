@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « magie » (préfixe magic-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="magic-c0"><path d="M30 10L36.72 27.28L54 34L36.72 40.72L30 58L23.28 40.72L6 34L23.28 27.28Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 10L36.72 27.28L54 34L36.72 40.72L30 58L23.28 40.72L6 34L23.28 27.28Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#magic-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#351868"/><path transform="translate(-1.28 -1.44)" d="M30 10L36.72 27.28L54 34L36.72 40.72L30 58L23.28 40.72L6 34L23.28 27.28Z" fill="#532b96"/><path transform="translate(-3.2 -3.52)" d="M30 10L36.72 27.28L54 34L36.72 40.72L30 58L23.28 40.72L6 34L23.28 27.28Z" fill="#7d47cc"/><ellipse cx="20.4" cy="22.48" rx="9.6" ry="5.76" transform="rotate(-28 20.4 22.48)" fill="#d6b8ff"/><circle cx="15.6" cy="19.6" r="3" fill="#ffffff"/></g><path d="M30 10L36.72 27.28L54 34L36.72 40.72L30 58L23.28 40.72L6 34L23.28 27.28Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M50 6L51.68 10.32L56 12L51.68 13.68L50 18L48.32 13.68L44 12L48.32 10.32Z" fill="#e8d8ff" stroke="#1b1530" stroke-width="1.3"/>
+<path d="M12 8.5L12.98 11.02L15.5 12L12.98 12.98L12 15.5L11.02 12.98L8.5 12L11.02 11.02Z" fill="#e8d8ff" stroke="#1b1530" stroke-width="1.3"/>
+</g>
+</svg>

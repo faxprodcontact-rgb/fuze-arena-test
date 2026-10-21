@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « croix » (préfixe cross-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="cross-c0"><path d="M9 18L18 9L32 23L46 9L55 18L41 32L55 46L46 55L32 41L18 55L9 46L23 32Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M9 18L18 9L32 23L46 9L55 18L41 32L55 46L46 55L32 41L18 55L9 46L23 32Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#cross-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#6e1129"/><path transform="translate(-1.28 -1.44)" d="M9 18L18 9L32 23L46 9L55 18L41 32L55 46L46 55L32 41L18 55L9 46L23 32Z" fill="#a81d35"/><path transform="translate(-3.2 -3.52)" d="M9 18L18 9L32 23L46 9L55 18L41 32L55 46L46 55L32 41L18 55L9 46L23 32Z" fill="#e3343d"/><ellipse cx="22.8" cy="20.96" rx="9.2" ry="5.52" transform="rotate(-28 22.8 20.96)" fill="#ff8a7a"/><circle cx="18.2" cy="18.2" r="2.9" fill="#ffffff"/></g><path d="M9 18L18 9L32 23L46 9L55 18L41 32L55 46L46 55L32 41L18 55L9 46L23 32Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+</g>
+</svg>

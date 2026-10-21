@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « validé » (préfixe check-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="check-c0"><path d="M7 34L19 22L28 31L46 9L58 21L28 55Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M7 34L19 22L28 31L46 9L58 21L28 55Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#check-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#1c4a26"/><path transform="translate(-1.28 -1.44)" d="M7 34L19 22L28 31L46 9L58 21L28 55Z" fill="#2f7432"/><path transform="translate(-3.2 -3.52)" d="M7 34L19 22L28 31L46 9L58 21L28 55Z" fill="#4ea83c"/><ellipse cx="22.3" cy="20.96" rx="10.2" ry="5.52" transform="rotate(-28 22.3 20.96)" fill="#c4f79a"/><circle cx="17.2" cy="18.2" r="2.9" fill="#ffffff"/></g><path d="M7 34L19 22L28 31L46 9L58 21L28 55Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+</g>
+</svg>

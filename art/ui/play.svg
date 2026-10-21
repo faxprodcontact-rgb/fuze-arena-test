@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « lecture » (préfixe play-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="play-c0"><path d="M20 12C20 9 23 7.5 26 9.5L50 29C52.5 31 52.5 33 50 35L26 54.5C23 56.5 20 55 20 52Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M20 12C20 9 23 7.5 26 9.5L50 29C52.5 31 52.5 33 50 35L26 54.5C23 56.5 20 55 20 52Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#play-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#9aa2bd"/><path transform="translate(-1.28 -1.44)" d="M20 12C20 9 23 7.5 26 9.5L50 29C52.5 31 52.5 33 50 35L26 54.5C23 56.5 20 55 20 52Z" fill="#cdd3e2"/><path transform="translate(-3.2 -3.52)" d="M20 12C20 9 23 7.5 26 9.5L50 29C52.5 31 52.5 33 50 35L26 54.5C23 56.5 20 55 20 52Z" fill="#f4f6fb"/><ellipse cx="29.75" cy="20.24" rx="6.5" ry="5.88" transform="rotate(-28 29.75 20.24)" fill="#ffffff"/><circle cx="26.5" cy="17.3" r="2.23" fill="#ffffff"/></g><path d="M20 12C20 9 23 7.5 26 9.5L50 29C52.5 31 52.5 33 50 35L26 54.5C23 56.5 20 55 20 52Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+</g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « progression » (préfixe up-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="up-c0"><path d="M32 5L57 31L43 31L43 58L21 58L21 31L7 31Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 5L57 31L43 31L43 58L21 58L21 31L7 31Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#up-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#1c4a26"/><path transform="translate(-1.28 -1.44)" d="M32 5L57 31L43 31L43 58L21 58L21 31L7 31Z" fill="#2f7432"/><path transform="translate(-3.2 -3.52)" d="M32 5L57 31L43 31L43 58L21 58L21 31L7 31Z" fill="#4ea83c"/><ellipse cx="22" cy="18.78" rx="10" ry="6.36" transform="rotate(-28 22 18.78)" fill="#c4f79a"/><circle cx="17" cy="15.6" r="3.1" fill="#ffffff"/></g><path d="M32 5L57 31L43 31L43 58L21 58L21 31L7 31Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+</g>
+</svg>

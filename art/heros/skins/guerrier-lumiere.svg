@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300">
+<!-- Fuze Arena : GUERRIER (préfixe gu-) : référence de style de la refonte.
+     Chibi cartoon, lumière en haut à gauche, contour #1b1530.
+     Ordre : ombre au sol > corps > tête > arme. Chaque groupe commence par sa « doublure »
+     (mêmes formes en trait 7 = contour extérieur épais), puis les pièces (aplat + ombres découpées + contour 3). -->
+<defs>
+<linearGradient id="gulu-gu-steel" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#fffdf3"/><stop offset="0.45" stop-color="#fbf9f3"/><stop offset="1" stop-color="#eae4d6"/></linearGradient>
+<linearGradient id="gulu-gu-gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffbdb"/><stop offset="0.45" stop-color="#ffe266"/><stop offset="1" stop-color="#fad44a"/></linearGradient>
+<linearGradient id="gulu-gu-iris" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ca9600"/><stop offset="0.55" stop-color="#ffe26d"/><stop offset="1" stop-color="#fff8d2"/></linearGradient>
+<clipPath id="gulu-gu-tabsh"><path d="M140 150C144 180 146 210 146 226C148 236 150 244 152 252L170 252L170 150Z"/></clipPath>
+<clipPath id="gulu-gu-eye1"><path d="M115 113C118 108 130 107 135 111C137 117 137 126 134 131C131 135 120 135 117 131C114 126 113 118 115 113Z"/></clipPath>
+<clipPath id="gulu-gu-eye2"><path d="M150 112C153 108 160 108 163 111C164 117 164 126 162 131C160 134 153 134 151 131C149 126 149 117 150 112Z"/></clipPath>
+<clipPath id="gulu-gu-bras-arriere-manche-de-mailles"><path d="M148 176C156 172 166 174 172 180L174 194C166 198 156 198 150 194Z"/></clipPath>
+<clipPath id="gulu-gu-bras-arriere-canon-d-avant-bras"><path d="M152 190C160 186 170 186 176 190L178 204C172 210 164 212 158 210Z"/></clipPath>
+<clipPath id="gulu-gu-jambe-arriere-jambiere"><path d="M134 238C143 235 152 236 158 240L167 277C159 280 150 280 144 278Z"/></clipPath>
+<clipPath id="gulu-gu-jambe-arriere-botte"><path d="M141 274C151 272 163 272 170 275L171 279C181 279 190 283 190 288L190 292L140 292C138 286 138 280 141 274Z"/></clipPath>
+<clipPath id="gulu-gu-jambe-arriere-revers-de-botte"><path d="M140 269C151 265.5 163 265.5 171 269L171 278C163 275 151 275 140 278Z"/></clipPath>
+<clipPath id="gulu-gu-jambe-arriere-genouillere"><path d="M135 245C135 239 141 235 148 235C155 235 161 239 161 245C161 251 155 257 148 259C141 257 135 251 135 245Z"/></clipPath>
+<clipPath id="gulu-gu-jambe-avant-jambiere"><path d="M88 238C97 235 106 236 112 240L102 277C94 280 85 280 79 278Z"/></clipPath>
+<clipPath id="gulu-gu-jambe-avant-botte"><path d="M77 274C87 272 98 272 105 275L106 279C115 279 123 283 123 288L123 292L75 292C73 286 73 280 77 274Z"/></clipPath>
+<clipPath id="gulu-gu-jambe-avant-revers-de-botte"><path d="M76 269C87 265.5 98 265.5 106 269L106 278C98 275 87 275 76 278Z"/></clipPath>
+<clipPath id="gulu-gu-jambe-avant-genouillere"><path d="M86 245C86 239 92 235 99 235C106 235 112 239 112 245C112 251 106 257 99 259C92 257 86 251 86 245Z"/></clipPath>
+<clipPath id="gulu-gu-tassette-gauche"><path d="M86 216C92 220 100 222 103 222L101 237C95 240 87 238 80 233Z"/></clipPath>
+<clipPath id="gulu-gu-tassette-droite"><path d="M153 214C158 221 160 228 162 235C159 239 156 241 153 241L152 224Z"/></clipPath>
+<clipPath id="gulu-gu-torse-plastron"><path d="M82 160C96 150 142 148 158 156C162 178 160 198 155 216L88 218C82 200 78 180 82 160Z"/></clipPath>
+<clipPath id="gulu-gu-tabard"><path d="M104 156L148 156C150 176 152 196 153 214C155 226 157 234 159 242C152 246 145 243 138 246C127 250 112 247 97 243C98 234 99 224 100 214C100 194 101 176 104 156Z"/></clipPath>
+<clipPath id="gulu-gu-ceinture"><path d="M86 208C106 215 134 215 155 207L156 220C134 228 106 228 88 222Z"/></clipPath>
+<clipPath id="gulu-gu-boucle"><path d="M121 211L139 211C141 211 142 212 142 214L142 226C142 228 141 229 139 229L121 229C119 229 118 228 118 226L118 214C118 212 119 211 121 211Z"/></clipPath>
+<clipPath id="gulu-gu-epauliere-arriere"><path d="M136 156C148 148 168 152 174 164C176 176 168 184 158 186C146 186 138 178 136 168Z"/></clipPath>
+<clipPath id="gulu-gu-gorgerin"><path d="M98 148C114 156 144 156 160 148L160 162C144 170 114 170 98 162Z"/></clipPath>
+<clipPath id="gulu-gu-bras-avant-manche-de-mailles"><path d="M62 192C60 200 60 206 62 212L80 212C80 206 81 200 82 194Z"/></clipPath>
+<clipPath id="gulu-gu-epauliere-avant-lame-inferieure"><path d="M58 182C74 192 100 188 116 172C121 179 119 188 113 193C99 202 74 204 61 197Z"/></clipPath>
+<clipPath id="gulu-gu-epauliere-avant-coque"><path d="M54 174C52 154 68 142 90 142C110 142 120 152 118 166C114 178 98 186 78 188C64 189 55 184 54 174Z"/></clipPath>
+<clipPath id="gulu-gu-bras-avant-canon-d-avant-bras"><path d="M63 217C70 225 78 231 87 234L95 220C88 216 81 211 74 205Z"/></clipPath>
+<clipPath id="gulu-gu-bras-avant-cubitiere"><path d="M59 211C59 205 63 202 68 202C73 202 77 206 77 211C77 216 73 220 68 220C63 220 59 216 59 211Z"/></clipPath>
+<clipPath id="gulu-gu-bras-avant-poing"><path d="M86 223C86 217 90 214 96 214C102 214 107 217 107.5 223C108 230 104 236 97 237C90 238 86 233 86 227Z"/></clipPath>
+<clipPath id="gulu-gu-bras-avant-pouce"><path d="M90 217C94 214 100 214 104 216C104 219 100 221 95 221C92 221 90 219 90 217Z"/></clipPath>
+<clipPath id="gulu-gu-plumet"><path d="M106 36C108 20 98 6 80 4C62 2 44 8 30 18C22 24 14 26 6 24C12 30 18 34 26 36C18 42 12 46 6 46C14 52 22 56 32 54C26 60 22 66 18 72C30 72 40 66 48 58C60 48 80 42 100 42Z"/></clipPath>
+<clipPath id="gulu-gu-support-du-plumet"><path d="M94 42C94 36 100 32 106 33C110 34 111 38 110 42C108 46 96 47 94 42Z"/></clipPath>
+<clipPath id="gulu-gu-casque-coque"><path d="M58 134C44 110 46 70 70 50C92 32 132 28 156 46C170 58 177 74 176 90C160 94 120 98 104 104C100 118 96 134 92 146C80 148 66 144 58 134Z"/></clipPath>
+<clipPath id="gulu-gu-casque-protege-joue-lointain"><path d="M166 86C176 90 183 102 181 116C180 124 176 130 171 132L166 126Z"/></clipPath>
+<clipPath id="gulu-gu-visage"><path d="M100 92C124 84 152 84 168 90C173 102 174 118 169 130C165 142 156 152 144 155C130 158 112 155 100 148Z"/></clipPath>
+<clipPath id="gulu-gu-casque-protege-joue"><path d="M88 100C98 102 106 108 108 120C110 132 106 142 100 150C94 152 88 150 84 146C82 130 84 112 88 100Z"/></clipPath>
+<clipPath id="gulu-gu-casque-bandeau-frontal"><path d="M84 98C104 84 142 76 177 82L177 90C150 88 118 94 100 106C94 104 88 102 84 98Z"/></clipPath>
+<clipPath id="gulu-gu-epee-lame"><path d="M-9 -14L-7.5 -100L0 -122L7.5 -100L9 -14Z"/></clipPath>
+<clipPath id="gulu-gu-epee-poignee-cuir"><path d="M-4.5 -10L4.5 -10L4.5 22L-4.5 22Z"/></clipPath>
+<clipPath id="gulu-gu-epee-pommeau"><path d="M-7 28C-7 24 -4 21 0 21C4 21 7 24 7 28C7 32 4 35 0 35C-4 35 -7 32 -7 28Z"/></clipPath>
+<clipPath id="gulu-gu-epee-garde"><path d="M-27 -16C-27 -22 -21 -24 -17 -20C-11 -15 11 -15 17 -20C21 -24 27 -22 27 -16C25 -9 12 -7 0 -7C-12 -7 -25 -9 -27 -16Z"/></clipPath>
+<clipPath id="gulu-gu-main-d-arme-poing"><path d="M-9 -11C-3 -13 5 -13 9 -10C12 -6 12 6 9 9C5 12 -3 12 -9 10C-12 6 -12 -6 -9 -11Z"/></clipPath>
+<clipPath id="gulu-gu-main-d-arme-pouce"><path d="M-9 -9C-5 -13 1 -13 5 -10C4 -6 -2 -5 -8 -6Z"/></clipPath>
+<radialGradient id="gulu-hl" cx="0.5" cy="0.5" r="0.5"><stop offset="0.6" stop-color="#fff6c8" stop-opacity="0"/><stop offset="0.8" stop-color="#ffe680" stop-opacity="0.55"/><stop offset="1" stop-color="#ffd23a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gulu-wg" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#fff2c0"/><stop offset="1" stop-color="#f2c44a"/></linearGradient></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<!-- ===== OMBRE AU SOL ===== -->
+<ellipse cx="128" cy="291" rx="70" ry="9" fill="#1b1530" opacity="0.25"/>
+<ellipse cx="128" cy="291" rx="54" ry="6.5" fill="#1b1530" opacity="0.35"/>
+<!-- ===== CORPS ===== -->
+<!-- skin lumiere : dans le dos --><g transform="translate(120 156) scale(1 1)"><g transform="translate(6 40) scale(1) rotate(-32)"><path d="M0 -4C-21 -22 -56 -26 -70 -10C-63 2 -57.4 8 -49 10C-28 16 -10.5 14 0 10Z" fill="url(#gulu-wg)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M-7 2C-28 -2 -49 -6 -64.4 -8" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/></g><g transform="translate(4 30) scale(1) rotate(-16)"><path d="M0 -4C-27.599999999999998 -22 -73.60000000000001 -26 -92 -10C-82.8 2 -75.44 8 -64.39999999999999 10C-36.800000000000004 16 -13.799999999999999 14 0 10Z" fill="url(#gulu-wg)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M-9.200000000000001 2C-36.800000000000004 -2 -64.39999999999999 -6 -84.64 -8" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/></g><g transform="translate(2 18) scale(1) rotate(0)"><path d="M0 -4C-33 -22 -88 -26 -110 -10C-99 2 -90.19999999999999 8 -77 10C-44 16 -16.5 14 0 10Z" fill="url(#gulu-wg)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M-11 2C-44 -2 -77 -6 -101.2 -8" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/></g><g transform="translate(0 6) scale(1) rotate(16)"><path d="M0 -4C-36.6 -22 -97.60000000000001 -26 -122 -10C-109.8 2 -100.03999999999999 8 -85.39999999999999 10C-48.800000000000004 16 -18.3 14 0 10Z" fill="url(#gulu-wg)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M-12.200000000000001 2C-48.800000000000004 -2 -85.39999999999999 -6 -112.24000000000001 -8" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/></g><g transform="translate(0 -4) scale(1) rotate(32)"><path d="M0 -4C-39 -22 -104 -26 -130 -10C-117 2 -106.6 8 -91 10C-52 16 -19.5 14 0 10Z" fill="url(#gulu-wg)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M-13 2C-52 -2 -91 -6 -119.60000000000001 -8" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/></g></g><g transform="translate(160 150) scale(-0.8 1)"><g transform="translate(6 40) scale(1) rotate(-32)"><path d="M0 -4C-21 -22 -56 -26 -70 -10C-63 2 -57.4 8 -49 10C-28 16 -10.5 14 0 10Z" fill="url(#gulu-wg)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M-7 2C-28 -2 -49 -6 -64.4 -8" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/></g><g transform="translate(4 30) scale(1) rotate(-16)"><path d="M0 -4C-27.599999999999998 -22 -73.60000000000001 -26 -92 -10C-82.8 2 -75.44 8 -64.39999999999999 10C-36.800000000000004 16 -13.799999999999999 14 0 10Z" fill="url(#gulu-wg)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M-9.200000000000001 2C-36.800000000000004 -2 -64.39999999999999 -6 -84.64 -8" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/></g><g transform="translate(2 18) scale(1) rotate(0)"><path d="M0 -4C-33 -22 -88 -26 -110 -10C-99 2 -90.19999999999999 8 -77 10C-44 16 -16.5 14 0 10Z" fill="url(#gulu-wg)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M-11 2C-44 -2 -77 -6 -101.2 -8" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/></g><g transform="translate(0 6) scale(1) rotate(16)"><path d="M0 -4C-36.6 -22 -97.60000000000001 -26 -122 -10C-109.8 2 -100.03999999999999 8 -85.39999999999999 10C-48.800000000000004 16 -18.3 14 0 10Z" fill="url(#gulu-wg)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M-12.200000000000001 2C-48.800000000000004 -2 -85.39999999999999 -6 -112.24000000000001 -8" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/></g><g transform="translate(0 -4) scale(1) rotate(32)"><path d="M0 -4C-39 -22 -104 -26 -130 -10C-117 2 -106.6 8 -91 10C-52 16 -19.5 14 0 10Z" fill="url(#gulu-wg)" stroke="#1b1530" stroke-width="5" stroke-linejoin="round"/><path d="M-13 2C-52 -2 -91 -6 -119.60000000000001 -8" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/></g></g>
+<g>
+<g fill="#1b1530" stroke="#1b1530" stroke-width="7"><path d="M148 176C156 172 166 174 172 180L174 194C166 198 156 198 150 194Z"/><path d="M152 190C160 186 170 186 176 190L178 204C172 210 164 212 158 210Z"/><path d="M134 238C143 235 152 236 158 240L167 277C159 280 150 280 144 278Z"/><path d="M135 245C135 239 141 235 148 235C155 235 161 239 161 245C161 251 155 257 148 259C141 257 135 251 135 245Z"/><path d="M141 274C151 272 163 272 170 275L171 279C181 279 190 283 190 288L190 292L140 292C138 286 138 280 141 274Z"/><path d="M140 269C151 265.5 163 265.5 171 269L171 278C163 275 151 275 140 278Z"/><path d="M88 238C97 235 106 236 112 240L102 277C94 280 85 280 79 278Z"/><path d="M86 245C86 239 92 235 99 235C106 235 112 239 112 245C112 251 106 257 99 259C92 257 86 251 86 245Z"/><path d="M77 274C87 272 98 272 105 275L106 279C115 279 123 283 123 288L123 292L75 292C73 286 73 280 77 274Z"/><path d="M76 269C87 265.5 98 265.5 106 269L106 278C98 275 87 275 76 278Z"/><path d="M86 216C92 220 100 222 103 222L101 237C95 240 87 238 80 233Z"/><path d="M153 214C158 221 160 228 162 235C159 239 156 241 153 241L152 224Z"/><path d="M82 160C96 150 142 148 158 156C162 178 160 198 155 216L88 218C82 200 78 180 82 160Z"/><path d="M104 156L148 156C150 176 152 196 153 214C155 226 157 234 159 242C152 246 145 243 138 246C127 250 112 247 97 243C98 234 99 224 100 214C100 194 101 176 104 156Z"/><path d="M86 208C106 215 134 215 155 207L156 220C134 228 106 228 88 222Z"/><path d="M136 156C148 148 168 152 174 164C176 176 168 184 158 186C146 186 138 178 136 168Z"/><path d="M98 148C114 156 144 156 160 148L160 162C144 170 114 170 98 162Z"/><path d="M58 182C74 192 100 188 116 172C121 179 119 188 113 193C99 202 74 204 61 197Z"/><path d="M54 174C52 154 68 142 90 142C110 142 120 152 118 166C114 178 98 186 78 188C64 189 55 184 54 174Z"/><path d="M62 192C60 200 60 206 62 212L80 212C80 206 81 200 82 194Z"/><path d="M63 217C70 225 78 231 87 234L95 220C88 216 81 211 74 205Z"/><path d="M86 223C86 217 90 214 96 214C102 214 107 217 107.5 223C108 230 104 236 97 237C90 238 86 233 86 227Z"/><path d="M90 217C94 214 100 214 104 216C104 219 100 221 95 221C92 221 90 219 90 217Z"/><path d="M59 211C59 205 63 202 68 202C73 202 77 206 77 211C77 216 73 220 68 220C63 220 59 216 59 211Z"/></g>
+<!-- bras arrière : manche de mailles -->
+<g clip-path="url(#gulu-gu-bras-arriere-manche-de-mailles)"><rect x="146" y="170" width="30" height="30" fill="#e5dfd0"/><path d="M146 180q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0M148.5 185q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0M146 190q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0M148.5 195q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0" fill="none" stroke="#c9c1b1" stroke-width="1.3"/><path d="M140 190C152 196 166 194 180 188L180 204L140 204Z" fill="#c9c1b1"/></g>
+<path d="M148 176C156 172 166 174 172 180L174 194C166 198 156 198 150 194Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- bras arrière : canon d'avant-bras -->
+<g clip-path="url(#gulu-gu-bras-arriere-canon-d-avant-bras)"><rect x="150" y="184" width="30" height="30" fill="url(#gulu-gu-steel)"/><path d="M166 184C172 192 172 202 168 214L184 214L184 184Z" fill="#f1ece0"/><path d="M156 196L160 206" fill="none" stroke="#ffffff" stroke-width="2"/><path d="M158 210C166 211 172 207 178 203" fill="none" stroke="#ffe266" stroke-width="5"/></g>
+<path d="M152 190C160 186 170 186 176 190L178 204C172 210 164 212 158 210Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe arrière : jambière -->
+<g clip-path="url(#gulu-gu-jambe-arriere-jambiere)"><rect x="132" y="233" width="37" height="49" fill="url(#gulu-gu-steel)"/><path d="M151 236C157 252 160 266 163 282L175 282L175 236Z" fill="#f1ece0"/><path d="M140 252L145 272" fill="none" stroke="#ffffff" stroke-width="2.5"/></g>
+<path d="M134 238C143 235 152 236 158 240L167 277C159 280 150 280 144 278Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe arrière : botte -->
+<g clip-path="url(#gulu-gu-jambe-arriere-botte)"><rect x="136" y="270" width="56" height="24" fill="#967543"/><path d="M163 274C167 282 179 284 193 286L193 292L153 292Z" fill="#795b31"/><path d="M133 287L193 287L193 296L133 296Z" fill="#5e4322"/><path d="M174 281C180 281 184 283 186 285" fill="none" stroke="#ba965c" stroke-width="2.5"/></g>
+<path d="M141 274C151 272 163 272 170 275L171 279C181 279 190 283 190 288L190 292L140 292C138 286 138 280 141 274Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe arrière : revers de botte -->
+<g clip-path="url(#gulu-gu-jambe-arriere-revers-de-botte)"><rect x="138" y="263.5" width="35" height="16.5" fill="#ba965c"/><path d="M161 262L175 262L175 280L159 280Z" fill="#967543"/><path d="M142 270C151 267 161 267 169 270" fill="none" stroke="#e0a875" stroke-width="1.5"/></g>
+<path d="M140 269C151 265.5 163 265.5 171 269L171 278C163 275 151 275 140 278Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe arrière : genouillère -->
+<g clip-path="url(#gulu-gu-jambe-arriere-genouillere)"><rect x="133" y="233" width="30" height="28" fill="url(#gulu-gu-steel)"/><path d="M133 249C140 255 152 255 163 243L165 262L131 262Z" fill="#f1ece0"/><path d="M140 239C143 237 147 237 150 238C146 239 143 241 141 244Z" fill="#ffffff"/><path d="M135 245C143 249 153 249 161 245" fill="none" stroke="#1b1530" stroke-width="2"/></g>
+<path d="M135 245C135 239 141 235 148 235C155 235 161 239 161 245C161 251 155 257 148 259C141 257 135 251 135 245Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe avant : jambière -->
+<g clip-path="url(#gulu-gu-jambe-avant-jambiere)"><rect x="77" y="233" width="37" height="49" fill="url(#gulu-gu-steel)"/><path d="M103 236C104 254 101 268 99 282L116 282L116 236Z" fill="#f1ece0"/><path d="M92 252L87 272" fill="none" stroke="#ffffff" stroke-width="2.5"/></g>
+<path d="M88 238C97 235 106 236 112 240L102 277C94 280 85 280 79 278Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe avant : botte -->
+<g clip-path="url(#gulu-gu-jambe-avant-botte)"><rect x="71" y="270" width="54" height="24" fill="#967543"/><path d="M97 274C101 282 112 284 126 286L126 292L88 292Z" fill="#795b31"/><path d="M68 287L126 287L126 296L68 296Z" fill="#5e4322"/><path d="M108 281C114 281 118 283 120 285" fill="none" stroke="#ba965c" stroke-width="2.5"/></g>
+<path d="M77 274C87 272 98 272 105 275L106 279C115 279 123 283 123 288L123 292L75 292C73 286 73 280 77 274Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe avant : revers de botte -->
+<g clip-path="url(#gulu-gu-jambe-avant-revers-de-botte)"><rect x="74" y="263.5" width="34" height="16.5" fill="#ba965c"/><path d="M96 262L110 262L110 280L94 280Z" fill="#967543"/><path d="M78 270C87 267 96 267 104 270" fill="none" stroke="#e0a875" stroke-width="1.5"/></g>
+<path d="M76 269C87 265.5 98 265.5 106 269L106 278C98 275 87 275 76 278Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- jambe avant : genouillère -->
+<g clip-path="url(#gulu-gu-jambe-avant-genouillere)"><rect x="84" y="233" width="30" height="28" fill="url(#gulu-gu-steel)"/><path d="M84 249C92 255 104 255 114 243L116 262L82 262Z" fill="#f1ece0"/><path d="M91 239C94 237 98 237 101 238C97 239 94 241 92 244Z" fill="#ffffff"/><path d="M86 245C94 249 104 249 112 245" fill="none" stroke="#1b1530" stroke-width="2"/></g>
+<path d="M86 245C86 239 92 235 99 235C106 235 112 239 112 245C112 251 106 257 99 259C92 257 86 251 86 245Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- tassette gauche -->
+<g clip-path="url(#gulu-gu-tassette-gauche)"><rect x="78" y="214" width="27" height="28" fill="url(#gulu-gu-steel)"/><path d="M78 229C88 235 98 235 104 231L104 243L78 243Z" fill="#f1ece0"/><path d="M83 226.5C90 229.5 97 230.5 102 229.5" fill="none" stroke="#1b1530" stroke-width="2"/><path d="M89 222L86 227" fill="none" stroke="#ffffff" stroke-width="2"/></g>
+<path d="M86 216C92 220 100 222 103 222L101 237C95 240 87 238 80 233Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- tassette droite -->
+<g clip-path="url(#gulu-gu-tassette-droite)"><rect x="150" y="212" width="14" height="31" fill="url(#gulu-gu-steel)"/><path d="M157 214L170 214L170 248L159 248Z" fill="#f1ece0"/></g>
+<path d="M153 214C158 221 160 228 162 235C159 239 156 241 153 241L152 224Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- torse : plastron -->
+<g clip-path="url(#gulu-gu-torse-plastron)"><rect x="76" y="146" width="88" height="74" fill="url(#gulu-gu-steel)"/><path d="M150 150L170 150L170 220L150 220Z" fill="#dcd6c6"/><path d="M80 180C90 188 100 190 104 188L104 198C94 200 86 198 80 194Z" fill="#dcd6c6"/><path d="M88 170C86 180 86 190 88 198" fill="none" stroke="#ffffff" stroke-width="2.5"/></g>
+<path d="M82 160C96 150 142 148 158 156C162 178 160 198 155 216L88 218C82 200 78 180 82 160Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- tabard -->
+<g clip-path="url(#gulu-gu-tabard)"><rect x="95" y="154" width="66" height="98" fill="#e7b332"/><path d="M140 150C144 180 146 210 146 226C148 236 150 244 152 252L170 252L170 150Z" fill="#b48019"/><path d="M106 160C108 180 108 196 106 210L112 210C113 196 113 178 111 160Z" fill="#f8d56f"/><path d="M114 224C114 231 112 238 110 248L117 248C118 239 117 231 116 224Z" fill="#b48019"/><path d="M110 226C109 233 107 239 105 246L108 246C110 239 111 233 112 226Z" fill="#f8d56f"/><path d="M134 224C135 231 137 238 139 246L133 247C132 239 132 231 132 224Z" fill="#b48019"/><path d="M127 226C127 233 127 240 126 248L130 248C130 240 130 233 129 226Z" fill="#f8d56f"/><path d="M100 150L156 150L156 158C140 166 116 166 100 158Z" fill="#b48019"/><path d="M96 220C116 228 136 228 158 218L158 228C136 236 116 236 96 230Z" fill="#b48019"/><path d="M104 156L148 156C150 176 152 196 153 214C155 226 157 234 159 242C152 246 145 243 138 246C127 250 112 247 97 243C98 234 99 224 100 214C100 194 101 176 104 156Z" fill="none" stroke="#ffe266" stroke-width="9"/><g clip-path="url(#gulu-gu-tabsh)"><path d="M104 156L148 156C150 176 152 196 153 214C155 226 157 234 159 242C152 246 145 243 138 246C127 250 112 247 97 243C98 234 99 224 100 214C100 194 101 176 104 156Z" fill="none" stroke="#f8d043" stroke-width="9"/></g></g>
+<path d="M104 156L148 156C150 176 152 196 153 214C155 226 157 234 159 242C152 246 145 243 138 246C127 250 112 247 97 243C98 234 99 224 100 214C100 194 101 176 104 156Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- tabard : emblème (rose dorée) -->
+<path d="M127 175L138 186L127 197L116 186Z" fill="url(#gulu-gu-gold)" stroke="#1b1530" stroke-width="2.5"/>
+<path d="M120.7 179.7A6.5 6.5 0 1 1 133.3 179.7A6.5 6.5 0 1 1 133.3 192.3A6.5 6.5 0 1 1 120.7 192.3A6.5 6.5 0 1 1 120.7 179.7Z" fill="url(#gulu-gu-gold)" stroke="#1b1530" stroke-width="2.5"/>
+<path d="M121 178C122 175 125 173 127 173" fill="none" stroke="#fffbdb" stroke-width="1.6"/>
+<circle cx="127" cy="186" r="3.4" fill="#e7b332" stroke="#1b1530" stroke-width="1.8"/>
+<circle cx="126" cy="185" r="1.1" fill="#ffffff"/>
+<!-- ceinture -->
+<g clip-path="url(#gulu-gu-ceinture)"><rect x="84" y="205" width="74" height="25" fill="#967543"/><path d="M86 217C106 224 134 224 156 215L156 232L86 232Z" fill="#795b31"/><path d="M90 211C108 217 130 217 150 211" fill="none" stroke="#ba965c" stroke-width="1.6"/></g>
+<path d="M86 208C106 215 134 215 155 207L156 220C134 228 106 228 88 222Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- boucle -->
+<g clip-path="url(#gulu-gu-boucle)"><rect x="116" y="209" width="28" height="22" fill="url(#gulu-gu-gold)"/><path d="M118 222L142 222L142 230L118 230Z" fill="#f8d043"/><path d="M124 216L136 216L136 224L124 224Z" fill="#5e4322"/><path d="M121 214L130 214" fill="none" stroke="#fffbdb" stroke-width="1.6"/></g>
+<path d="M121 211L139 211C141 211 142 212 142 214L142 226C142 228 141 229 139 229L121 229C119 229 118 228 118 226L118 214C118 212 119 211 121 211Z" fill="none" stroke="#1b1530" stroke-width="2.5"/>
+<!-- épaulière arrière -->
+<g clip-path="url(#gulu-gu-epauliere-arriere)"><rect x="134" y="146" width="44" height="42" fill="url(#gulu-gu-steel)"/><path d="M134 172C144 182 162 184 176 168L180 168L180 192L130 192Z" fill="#f1ece0"/><path d="M150 188C162 186 172 178 176 168L180 190Z" fill="#dcd6c6"/><path d="M143 160C149 155 157 154 163 156" fill="none" stroke="#ffffff" stroke-width="2.5"/><path d="M138 174C146 184 162 186 172 176" fill="none" stroke="#ffe266" stroke-width="5"/></g>
+<path d="M136 156C148 148 168 152 174 164C176 176 168 184 158 186C146 186 138 178 136 168Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- gorgerin -->
+<g clip-path="url(#gulu-gu-gorgerin)"><rect x="96" y="146" width="66" height="26" fill="url(#gulu-gu-steel)"/><path d="M136 140L170 140L170 175L136 175Z" fill="#f1ece0"/><path d="M96 146C114 154 144 154 162 146L162 155C144 163 114 163 96 155Z" fill="#dcd6c6"/><path d="M101 159C108 163 116 165 124 166" fill="none" stroke="#ffffff" stroke-width="1.8"/></g>
+<path d="M98 148C114 156 144 156 160 148L160 162C144 170 114 170 98 162Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- bras avant : manche de mailles -->
+<g clip-path="url(#gulu-gu-bras-avant-manche-de-mailles)"><rect x="58" y="190" width="26" height="24" fill="#e5dfd0"/><path d="M58 196q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0M60.5 201q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0M58 206q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0M60.5 211q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0q2.5 2.6 5 0" fill="none" stroke="#c9c1b1" stroke-width="1.3"/><path d="M74 186L90 186L90 214L76 214Z" fill="#c9c1b1"/></g>
+<path d="M62 192C60 200 60 206 62 212L80 212C80 206 81 200 82 194Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- épaulière avant : lame inférieure -->
+<g clip-path="url(#gulu-gu-epauliere-avant-lame-inferieure)"><rect x="56" y="170" width="67" height="36" fill="url(#gulu-gu-steel)"/><path d="M56 192C74 200 100 198 120 182L124 206L56 206Z" fill="#f1ece0"/><path d="M61 197C74 204 99 202 113 193" fill="none" stroke="#ffe266" stroke-width="7"/></g>
+<path d="M58 182C74 192 100 188 116 172C121 179 119 188 113 193C99 202 74 204 61 197Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- épaulière avant : coque -->
+<g clip-path="url(#gulu-gu-epauliere-avant-coque)"><rect x="50" y="140" width="72" height="51" fill="url(#gulu-gu-steel)"/><path d="M54 178C66 186 94 184 110 172C116 166 118 160 118 154L124 154L124 194L50 194Z" fill="#f1ece0"/><path d="M72 190C92 186 108 178 118 166L122 166L122 194L66 194Z" fill="#dcd6c6"/><path d="M60 170C60 157 70 148 84 147C74 152 67 160 65 171Z" fill="#ffffff"/><circle cx="91" cy="150" r="2.2" fill="#ffffff"/><path d="M59 179C64 184 72 186 80 186" fill="none" stroke="#ffffff" stroke-width="2"/></g>
+<path d="M54 174C52 154 68 142 90 142C110 142 120 152 118 166C114 178 98 186 78 188C64 189 55 184 54 174Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<circle cx="70" cy="173" r="2.6" fill="url(#gulu-gu-gold)" stroke="#1b1530" stroke-width="1.6"/><circle cx="105" cy="162" r="2.6" fill="url(#gulu-gu-gold)" stroke="#1b1530" stroke-width="1.6"/>
+<!-- bras avant : canon d'avant-bras -->
+<g clip-path="url(#gulu-gu-bras-avant-canon-d-avant-bras)"><rect x="61" y="203" width="36" height="33" fill="url(#gulu-gu-steel)"/><path d="M60 226C72 230 84 232 96 228L96 240L60 240Z" fill="#f1ece0"/><path d="M70 219C75 223 80 226 85 228" fill="none" stroke="#ffffff" stroke-width="2"/><path d="M87 234L95 220" fill="none" stroke="#ffe266" stroke-width="7"/></g>
+<path d="M63 217C70 225 78 231 87 234L95 220C88 216 81 211 74 205Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- bras avant : cubitière -->
+<g clip-path="url(#gulu-gu-bras-avant-cubitiere)"><rect x="57" y="200" width="22" height="22" fill="url(#gulu-gu-steel)"/><path d="M57 213C61 218 72 219 79 209L80 224L57 224Z" fill="#f1ece0"/><path d="M62 207C64 204 67 203 70 203C67 205 65 207 64 209Z" fill="#ffffff"/></g>
+<path d="M59 211C59 205 63 202 68 202C73 202 77 206 77 211C77 216 73 220 68 220C63 220 59 216 59 211Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<circle cx="68" cy="211" r="2" fill="url(#gulu-gu-gold)" stroke="#1b1530" stroke-width="1.6"/>
+<!-- bras avant : poing (gant cuir) -->
+<g clip-path="url(#gulu-gu-bras-avant-poing)"><rect x="84" y="212" width="26" height="28" fill="#967543"/><path d="M84 230C92 236 102 236 110 226L110 240L84 240Z" fill="#795b31"/><path d="M89 222C89 219 91 217 94 216.5" fill="none" stroke="#ba965c" stroke-width="2"/></g>
+<path d="M86 223C86 217 90 214 96 214C102 214 107 217 107.5 223C108 230 104 236 97 237C90 238 86 233 86 227Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<path d="M107.5 224.5L102 225M106.5 230L101 230M103 234.5L99 233.5" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- bras avant : pouce -->
+<g clip-path="url(#gulu-gu-bras-avant-pouce)"><rect x="88" y="212" width="18" height="11" fill="#967543"/><path d="M90 219C94 222 100 222 105 218L105 224L90 224Z" fill="#795b31"/><path d="M93 216.5C96 215.5 99 215.5 101 216" fill="none" stroke="#ba965c" stroke-width="1.5"/></g>
+<path d="M90 217C94 214 100 214 104 216C104 219 100 221 95 221C92 221 90 219 90 217Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+</g>
+<!-- skin lumiere : derrière la tête -->
+<!-- ===== TÊTE ===== (pivot du cou : 128,150) -->
+<g transform="rotate(3 128 150)">
+<g fill="#1b1530" stroke="#1b1530" stroke-width="7"><path d="M106 36C108 20 98 6 80 4C62 2 44 8 30 18C22 24 14 26 6 24C12 30 18 34 26 36C18 42 12 46 6 46C14 52 22 56 32 54C26 60 22 66 18 72C30 72 40 66 48 58C60 48 80 42 100 42Z"/><path d="M58 134C44 110 46 70 70 50C92 32 132 28 156 46C170 58 177 74 176 90C160 94 120 98 104 104C100 118 96 134 92 146C80 148 66 144 58 134Z"/><path d="M166 86C176 90 183 102 181 116C180 124 176 130 171 132L166 126Z"/><path d="M100 92C124 84 152 84 168 90C173 102 174 118 169 130C165 142 156 152 144 155C130 158 112 155 100 148Z"/><path d="M84 98C104 84 142 76 177 82L177 90C150 88 118 94 100 106C94 104 88 102 84 98Z"/></g>
+<!-- plumet -->
+<g clip-path="url(#gulu-gu-plumet)"><rect x="4" y="0" width="106" height="74" fill="#e7b332"/><path d="M98 42C76 40 50 46 32 54L10 80L60 80Z" fill="#b48019"/><path d="M100 38C80 28 50 30 26 36L4 40L4 48C20 44 40 40 60 42C76 42 90 42 100 42Z" fill="#b48019" opacity="0.55"/><path d="M102 22C92 8 66 6 44 14L40 0L110 0Z" fill="#f8d56f"/><path d="M62 54C72 46 86 42 100 42L104 52L56 62Z" fill="#81570e"/><path d="M100 38C80 28 50 30 26 36" fill="none" stroke="#81570e" stroke-width="2.2"/><path d="M98 42C76 40 50 46 32 54" fill="none" stroke="#81570e" stroke-width="2.2"/><path d="M96 14C86 8 70 8 56 13" fill="none" stroke="#ffc4b2" stroke-width="2.6"/><path d="M66 27C56 27 46 30 37 34" fill="none" stroke="#f8d56f" stroke-width="2"/><path d="M70 46C58 47 48 51 40 56" fill="none" stroke="#e7b332" stroke-width="2"/></g>
+<path d="M106 36C108 20 98 6 80 4C62 2 44 8 30 18C22 24 14 26 6 24C12 30 18 34 26 36C18 42 12 46 6 46C14 52 22 56 32 54C26 60 22 66 18 72C30 72 40 66 48 58C60 48 80 42 100 42Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- support du plumet -->
+<g clip-path="url(#gulu-gu-support-du-plumet)"><rect x="92" y="30" width="21" height="19" fill="url(#gulu-gu-gold)"/><path d="M92 40C98 44 106 44 112 38L112 48L92 48Z" fill="#f8d043"/></g>
+<path d="M94 42C94 36 100 32 106 33C110 34 111 38 110 42C108 46 96 47 94 42Z" fill="none" stroke="#1b1530" stroke-width="2.5"/>
+<!-- casque : coque -->
+<g clip-path="url(#gulu-gu-casque-coque)"><rect x="42" y="26" width="137" height="124" fill="url(#gulu-gu-steel)"/><path d="M110 30C140 34 162 54 164 90L180 90L180 28Z" fill="#f1ece0"/><path d="M44 112C56 128 74 136 94 134L96 150L40 150Z" fill="#f1ece0"/><path d="M62 84C62 64 78 46 100 40C86 50 74 64 70 84Z" fill="#ffffff"/><path d="M84 52L86 57L91 59L86 61L84 66L82 61L77 59L82 57Z" fill="#ffffff"/><path d="M50 104C50 116 54 126 60 134" fill="none" stroke="#ffffff" stroke-width="2.5"/><path d="M52 118C64 127 80 129 96 125" fill="none" stroke="#1b1530" stroke-width="2.5"/><circle cx="64" cy="128" r="2" fill="#ffffff" stroke="#1b1530" stroke-width="1.4"/><circle cx="80" cy="132" r="2" fill="#ffffff" stroke="#1b1530" stroke-width="1.4"/></g>
+<path d="M58 134C44 110 46 70 70 50C92 32 132 28 156 46C170 58 177 74 176 90C160 94 120 98 104 104C100 118 96 134 92 146C80 148 66 144 58 134Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- casque : protège-joue lointain -->
+<g clip-path="url(#gulu-gu-casque-protege-joue-lointain)"><rect x="164" y="84" width="21" height="50" fill="#f1ece0"/><path d="M164 112C172 118 178 120 184 116L184 136L164 136Z" fill="#dcd6c6"/></g>
+<path d="M166 86C176 90 183 102 181 116C180 124 176 130 171 132L166 126Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- visage -->
+<g clip-path="url(#gulu-gu-visage)"><rect x="98" y="82" width="78" height="78" fill="#fdd2ad"/><path d="M172 96C166 122 158 142 128 156L180 160L180 96Z" fill="#eea07e"/><path d="M96 80L182 80L182 97C150 94 120 100 102 114L96 114Z" fill="#eea07e"/><ellipse cx="117" cy="138" rx="7" ry="4" fill="#ff8b7e" opacity="0.55"/><ellipse cx="163" cy="136" rx="4" ry="3" fill="#ff8b7e" opacity="0.5"/><ellipse cx="113" cy="135" rx="2.2" ry="1.4" fill="#ffffff" opacity="0.8"/></g>
+<path d="M100 92C124 84 152 84 168 90C173 102 174 118 169 130C165 142 156 152 144 155C130 158 112 155 100 148Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- visage : oeil proche -->
+<path d="M115 114C119 110 130 109 135 112C137 118 137 126 134 131C131 135 120 135 117 131C114 126 113 119 115 114Z" fill="#ffffff"/>
+<g clip-path="url(#gulu-gu-eye1)"><ellipse cx="126.5" cy="123" rx="7.5" ry="10" fill="url(#gulu-gu-iris)"/><ellipse cx="127" cy="122" rx="3.6" ry="5.4" fill="#1b1530"/><path d="M120 127C123 132 130 132 133 127C130 130 123 130 120 127Z" fill="#fffdf5"/></g>
+<ellipse cx="123" cy="117.5" rx="3" ry="3.6" fill="#ffffff"/><circle cx="130" cy="128" r="1.6" fill="#ffffff"/>
+<path d="M110 116C117 108 129 107 138 112L137 115.5C129 112 120 112 115 118L110 118Z" fill="#1b1530"/>
+<path d="M118 133C122 135 127 135 131 133" fill="none" stroke="#1b1530" stroke-width="1.6"/>
+<!-- visage : oeil lointain -->
+<path d="M150 113C153 110 160 110 163 112C164 118 164 126 162 131C160 134 153 134 151 131C149 126 149 118 150 113Z" fill="#ffffff"/>
+<g clip-path="url(#gulu-gu-eye2)"><ellipse cx="157" cy="122.5" rx="5.5" ry="10" fill="url(#gulu-gu-iris)"/><ellipse cx="157.6" cy="121.5" rx="2.6" ry="5.2" fill="#1b1530"/><path d="M152 127C154 131 159 131 162 127C159 129 155 129 152 127Z" fill="#fffdf5"/></g>
+<circle cx="154.8" cy="117.5" r="2.4" fill="#ffffff"/><circle cx="159.5" cy="128" r="1.2" fill="#ffffff"/>
+<path d="M148 115C152 109 160 108 166 111L168 114L165 114C161 112 154 112 150 117Z" fill="#1b1530"/>
+<path d="M153.5 132.8C156 134 159 134 161 132.6" fill="none" stroke="#1b1530" stroke-width="1.4"/>
+<!-- visage : sourcils (froncés vers le nez = déterminé) -->
+<path d="M111 101C119 97 130 99 138 106L136.5 110C129 104 120 102 112 104.5Z" fill="#5b4120" stroke="#5b4120" stroke-width="1.2"/>
+<path d="M148 108C153 102 160 100 167 100L167 103.5C160 104 154 106 150 111Z" fill="#5b4120" stroke="#5b4120" stroke-width="1.2"/>
+<!-- visage : nez -->
+<path d="M146.5 127.5C148.5 129.5 148.2 131.8 145.2 132.4" fill="none" stroke="#c8705c" stroke-width="2"/>
+<!-- visage : bouche (sourire en coin) -->
+<path d="M138 141C144 143 150 142 155 138C155 142.5 152 145.5 147 146C142 146.5 139 144.5 138 141Z" fill="#7a2433"/>
+<path d="M139 141.6C144 143.4 150 142.4 154.6 138.8L154.3 140.6C150 143.8 144 144.6 140 143.4Z" fill="#ffffff"/>
+<path d="M138 141C144 143 150 142 155 138C155 142.5 152 145.5 147 146C142 146.5 139 144.5 138 141Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+<path d="M138 141L134.5 139.8" fill="none" stroke="#1b1530" stroke-width="2"/>
+<!-- casque : protège-joue -->
+<g clip-path="url(#gulu-gu-casque-protege-joue)"><rect x="80" y="98" width="32" height="56" fill="url(#gulu-gu-steel)"/><path d="M100 100C106 116 106 136 98 152L112 152L112 100Z" fill="#f1ece0"/><path d="M88 110C87 122 88 134 90 142" fill="none" stroke="#ffffff" stroke-width="2.5"/></g>
+<path d="M88 100C98 102 106 108 108 120C110 132 106 142 100 150C94 152 88 150 84 146C82 130 84 112 88 100Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<circle cx="94" cy="112" r="2.6" fill="url(#gulu-gu-gold)" stroke="#1b1530" stroke-width="1.6"/>
+<!-- casque : bandeau frontal -->
+<g clip-path="url(#gulu-gu-casque-bandeau-frontal)"><rect x="82" y="74" width="97" height="34" fill="url(#gulu-gu-steel)"/><path d="M80 102C100 92 140 84 182 86L182 96L80 110Z" fill="#f1ece0"/><path d="M92 94C110 85 140 80 170 82" fill="none" stroke="#ffffff" stroke-width="2"/></g>
+<path d="M84 98C104 84 142 76 177 82L177 90C150 88 118 94 100 106C94 104 88 102 84 98Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<circle cx="110" cy="93" r="2" fill="#ffffff" stroke="#1b1530" stroke-width="1.4"/><circle cx="128" cy="88" r="2" fill="#ffffff" stroke="#1b1530" stroke-width="1.4"/><circle cx="148" cy="85" r="2" fill="#ffffff" stroke="#1b1530" stroke-width="1.4"/><circle cx="166" cy="84" r="2" fill="#ffffff" stroke="#1b1530" stroke-width="1.4"/>
+<!-- casque : crête -->
+<path d="M142 80C140 58 126 40 100 34" fill="none" stroke="#1b1530" stroke-width="9"/><path d="M142 80C140 58 126 40 100 34" fill="none" stroke="#fbf9f3" stroke-width="4.5"/><path d="M138 76C136 58 124 44 104 37" fill="none" stroke="#ffffff" stroke-width="1.6"/>
+</g>
+<!-- skin lumiere : devant --><g transform="translate(130 30) scale(1)"><ellipse rx="44" ry="13" fill="url(#gulu-hl)"/><ellipse rx="30" ry="8" fill="none" stroke="#1b1530" stroke-width="9"/><ellipse rx="30" ry="8" fill="none" stroke="#ffd23a" stroke-width="5"/><ellipse rx="30" ry="8" fill="none" stroke="#fff6c8" stroke-width="1.6" transform="translate(0 -1.5)"/></g>
+<!-- ===== ARME : épée (le poing fait partie du groupe) ===== -->
+<!-- pivot arme : 170,206 -->
+<g transform="translate(170 206) rotate(28)">
+<g fill="#1b1530" stroke="#1b1530" stroke-width="7"><path d="M-9 -14L-7.5 -100L0 -122L7.5 -100L9 -14Z"/><path d="M-27 -16C-27 -22 -21 -24 -17 -20C-11 -15 11 -15 17 -20C21 -24 27 -22 27 -16C25 -9 12 -7 0 -7C-12 -7 -25 -9 -27 -16Z"/><path d="M-4.5 -10L4.5 -10L4.5 22L-4.5 22Z"/><path d="M-7 28C-7 24 -4 21 0 21C4 21 7 24 7 28C7 32 4 35 0 35C-4 35 -7 32 -7 28Z"/><path d="M-9 -11C-3 -13 5 -13 9 -10C12 -6 12 6 9 9C5 12 -3 12 -9 10C-12 6 -12 -6 -9 -11Z"/><path d="M-9 -9C-5 -13 1 -13 5 -10C4 -6 -2 -5 -8 -6Z"/></g>
+<!-- épée : lame -->
+<g clip-path="url(#gulu-gu-epee-lame)"><rect x="-11" y="-124" width="22" height="112" fill="#ffffff"/><path d="M0 -14L0 -122L7.5 -100L9 -14Z" fill="#f1ece0"/><path d="M0 -24L0 -92" fill="none" stroke="#dcd6c6" stroke-width="3"/><path d="M-2 -24L-2 -92" fill="none" stroke="#ffffff" stroke-width="1"/><path d="M-5.2 -22L-4 -96" fill="none" stroke="#ffffff" stroke-width="2.2"/><path d="M6.2 -18L5.4 -98" fill="none" stroke="#dcd6c6" stroke-width="1.4"/></g>
+<path d="M-9 -14L-7.5 -100L0 -122L7.5 -100L9 -14Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<path d="M-9 -14L0 -30L9 -14Z" fill="url(#gulu-gu-gold)" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M-3 -112L-1.6 -106L4 -104.5L-1.6 -103L-3 -97L-4.4 -103L-10 -104.5L-4.4 -106Z" fill="#ffffff"/>
+<!-- épée : poignée cuir -->
+<g clip-path="url(#gulu-gu-epee-poignee-cuir)"><rect x="-6.5" y="-12" width="13" height="36" fill="#967543"/><path d="M1 -12L8 -12L8 24L1 24Z" fill="#795b31"/><path d="M-4.5 11L4.5 14M-4.5 15.5L4.5 18.5M-4.5 20L4.5 23" fill="none" stroke="#5e4322" stroke-width="1.6"/></g>
+<path d="M-4.5 -10L4.5 -10L4.5 22L-4.5 22Z" fill="none" stroke="#1b1530" stroke-width="2.5"/>
+<!-- épée : pommeau -->
+<g clip-path="url(#gulu-gu-epee-pommeau)"><rect x="-9" y="19" width="18" height="18" fill="url(#gulu-gu-gold)"/><path d="M-8 29C-4 34 4 34 8 29L8 36L-8 36Z" fill="#f8d043"/><circle cx="0" cy="28" r="3" fill="#e7b332" stroke="#1b1530" stroke-width="1.5"/><circle cx="-2.5" cy="24" r="1.4" fill="#ffffff"/></g>
+<path d="M-7 28C-7 24 -4 21 0 21C4 21 7 24 7 28C7 32 4 35 0 35C-4 35 -7 32 -7 28Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<!-- épée : garde -->
+<g clip-path="url(#gulu-gu-epee-garde)"><rect x="-29" y="-26" width="58" height="21" fill="url(#gulu-gu-gold)"/><path d="M-30 -12C-15 -9 15 -9 30 -12L30 0L-30 0Z" fill="#f8d043"/><path d="M-20 -19C-14 -15 -6 -14 0 -14" fill="none" stroke="#fffbdb" stroke-width="1.6"/></g>
+<path d="M-27 -16C-27 -22 -21 -24 -17 -20C-11 -15 11 -15 17 -20C21 -24 27 -22 27 -16C25 -9 12 -7 0 -7C-12 -7 -25 -9 -27 -16Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<circle cx="0" cy="-12" r="4.5" fill="#e7b332" stroke="#1b1530" stroke-width="2"/><circle cx="-1.4" cy="-13.6" r="1.4" fill="#ffffff"/>
+<!-- main d'arme : poing (gant cuir) -->
+<g clip-path="url(#gulu-gu-main-d-arme-poing)"><rect x="-14" y="-15" width="28" height="29" fill="#967543"/><path d="M4 -14C8 -6 8 4 4 14L14 14L14 -14Z" fill="#795b31"/><path d="M-7 2C-5 6 -1 8 3 8" fill="none" stroke="#ba965c" stroke-width="2"/></g>
+<path d="M-9 -11C-3 -13 5 -13 9 -10C12 -6 12 6 9 9C5 12 -3 12 -9 10C-12 6 -12 -6 -9 -11Z" fill="none" stroke="#1b1530" stroke-width="3"/>
+<path d="M4.5 -2.5C7 -2.5 9 -2 11 -1M4.5 4C7 4 9 4.5 10.5 5.5" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<!-- main d'arme : pouce -->
+<g clip-path="url(#gulu-gu-main-d-arme-pouce)"><rect x="-11" y="-15" width="18" height="12" fill="#967543"/><path d="M-10 -7C-4 -5 2 -6 6 -9L6 -4L-10 -4Z" fill="#795b31"/><path d="M-6 -10.5C-3 -11.5 0 -11.5 2 -10.5" fill="none" stroke="#ba965c" stroke-width="1.5"/></g>
+<path d="M-9 -9C-5 -13 1 -13 5 -10C4 -6 -2 -5 -8 -6Z" fill="none" stroke="#1b1530" stroke-width="2"/>
+</g>
+</g>
+</svg>

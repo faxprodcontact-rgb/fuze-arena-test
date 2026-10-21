@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « horloge » (préfixe clock-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="clock-c0"><path d="M29 3L35 3Q37 3 37 5L37 8Q37 10 35 10L29 10Q27 10 27 8L27 5Q27 3 29 3Z"/></clipPath><clipPath id="clock-c1"><path d="M7 35A25 25 0 1 0 57 35A25 25 0 1 0 7 35Z"/></clipPath><clipPath id="clock-c2"><path d="M13.5 35A18.5 18.5 0 1 0 50.5 35A18.5 18.5 0 1 0 13.5 35Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M29 3L35 3Q37 3 37 5L37 8Q37 10 35 10L29 10Q27 10 27 8L27 5Q27 3 29 3Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#clock-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#8f4c0a"/><path transform="translate(-1.28 -1.44)" d="M29 3L35 3Q37 3 37 5L37 8Q37 10 35 10L29 10Q27 10 27 8L27 5Q27 3 29 3Z" fill="#cd7e15"/><path transform="translate(-3.2 -3.52)" d="M29 3L35 3Q37 3 37 5L37 8Q37 10 35 10L29 10Q27 10 27 8L27 5Q27 3 29 3Z" fill="#f7bc2a"/></g><path d="M29 3L35 3Q37 3 37 5L37 8Q37 10 35 10L29 10Q27 10 27 8L27 5Q27 3 29 3Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M7 35A25 25 0 1 0 57 35A25 25 0 1 0 7 35Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#clock-c1)"><rect x="-8" y="-8" width="80" height="80" fill="#8f4c0a"/><path transform="translate(-1.28 -1.44)" d="M7 35A25 25 0 1 0 57 35A25 25 0 1 0 7 35Z" fill="#cd7e15"/><path transform="translate(-3.2 -3.52)" d="M7 35A25 25 0 1 0 57 35A25 25 0 1 0 7 35Z" fill="#f7bc2a"/><ellipse cx="22" cy="23" rx="10" ry="6" transform="rotate(-28 22 23)" fill="#fff7c4"/><circle cx="17" cy="20" r="3.1" fill="#ffffff"/></g><path d="M7 35A25 25 0 1 0 57 35A25 25 0 1 0 7 35Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<g clip-path="url(#clock-c2)"><rect x="-8" y="-8" width="80" height="80" fill="#9aa2bd"/><path transform="translate(-1.28 -1.44)" d="M13.5 35A18.5 18.5 0 1 0 50.5 35A18.5 18.5 0 1 0 13.5 35Z" fill="#cdd3e2"/><path transform="translate(-3.2 -3.52)" d="M13.5 35A18.5 18.5 0 1 0 50.5 35A18.5 18.5 0 1 0 13.5 35Z" fill="#f4f6fb"/><ellipse cx="24.6" cy="26.12" rx="7.4" ry="4.44" transform="rotate(-28 24.6 26.12)" fill="#ffffff"/><circle cx="20.9" cy="23.9" r="2.45" fill="#ffffff"/></g><path d="M13.5 35A18.5 18.5 0 1 0 50.5 35A18.5 18.5 0 1 0 13.5 35Z" fill="none" stroke="#1b1530" stroke-width="1.8"/>
+<path d="M32 21v3M32 46v3M18 35h3M43 35h3" fill="none" stroke="#9aa2bd" stroke-width="2.2"/>
+<path d="M32 35L32 24" fill="none" stroke="#1b1530" stroke-width="3.4"/>
+<path d="M32 35L41 39" fill="none" stroke="#1b1530" stroke-width="3.4"/>
+<path d="M29 35A3 3 0 1 0 35 35A3 3 0 1 0 29 35Z" fill="#e3343d" stroke="#1b1530" stroke-width="1.4"/>
+</g>
+</svg>

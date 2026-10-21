@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « crâne » (préfixe skull-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="skull-c0"><path d="M11.3 34C11.3 17.9 21.65 11 32 11C42.35 11 52.7 17.9 52.7 34C52.7 42.05 48.1 45.5 44.65 46.65L44.65 54.7L19.35 54.7L19.35 46.65C15.9 45.5 11.3 42.05 11.3 34Z"/></clipPath><radialGradient id="skull-h1"><stop offset="0" stop-color="#5dff9a" stop-opacity="0.9"/><stop offset="0.55" stop-color="#5dff9a" stop-opacity="0.315"/><stop offset="1" stop-color="#5dff9a" stop-opacity="0"/></radialGradient><radialGradient id="skull-h2"><stop offset="0" stop-color="#5dff9a" stop-opacity="0.9"/><stop offset="0.55" stop-color="#5dff9a" stop-opacity="0.315"/><stop offset="1" stop-color="#5dff9a" stop-opacity="0"/></radialGradient></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M11.3 34C11.3 17.9 21.65 11 32 11C42.35 11 52.7 17.9 52.7 34C52.7 42.05 48.1 45.5 44.65 46.65L44.65 54.7L19.35 54.7L19.35 46.65C15.9 45.5 11.3 42.05 11.3 34Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#skull-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#9c8a68"/><path transform="translate(-1.28 -1.44)" d="M11.3 34C11.3 17.9 21.65 11 32 11C42.35 11 52.7 17.9 52.7 34C52.7 42.05 48.1 45.5 44.65 46.65L44.65 54.7L19.35 54.7L19.35 46.65C15.9 45.5 11.3 42.05 11.3 34Z" fill="#cdbf9e"/><path transform="translate(-3.2 -3.52)" d="M11.3 34C11.3 17.9 21.65 11 32 11C42.35 11 52.7 17.9 52.7 34C52.7 42.05 48.1 45.5 44.65 46.65L44.65 54.7L19.35 54.7L19.35 46.65C15.9 45.5 11.3 42.05 11.3 34Z" fill="#f3ecd8"/><ellipse cx="23.72" cy="22.36" rx="8.28" ry="5.24" transform="rotate(-28 23.72 22.36)" fill="#ffffff"/><circle cx="19.58" cy="19.74" r="2.67" fill="#ffffff"/></g><path d="M11.3 34C11.3 17.9 21.65 11 32 11C42.35 11 52.7 17.9 52.7 34C52.7 42.05 48.1 45.5 44.65 46.65L44.65 54.7L19.35 54.7L19.35 46.65C15.9 45.5 11.3 42.05 11.3 34Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M16.94 35.15A6.44 5.75 0 1 0 29.81 35.15A6.44 5.75 0 1 0 16.94 35.15Z" fill="#1b1530"/>
+<circle cx="23.38" cy="35.73" r="6.9" fill="url(#skull-h1)"/>
+<path d="M20.62 35.73A2.76 2.53 0 1 0 26.13 35.73A2.76 2.53 0 1 0 20.62 35.73Z" fill="#5dff9a"/>
+<path d="M21.42 34.8A1.03 1.03 0 1 0 23.49 34.8A1.03 1.03 0 1 0 21.42 34.8Z" fill="#ffffff"/>
+<path d="M34.19 35.15A6.44 5.75 0 1 0 47.06 35.15A6.44 5.75 0 1 0 34.19 35.15Z" fill="#1b1530"/>
+<circle cx="40.63" cy="35.73" r="6.9" fill="url(#skull-h2)"/>
+<path d="M37.87 35.73A2.76 2.53 0 1 0 43.38 35.73A2.76 2.53 0 1 0 37.87 35.73Z" fill="#5dff9a"/>
+<path d="M38.67 34.8A1.03 1.03 0 1 0 40.74 34.8A1.03 1.03 0 1 0 38.67 34.8Z" fill="#ffffff"/>
+<path d="M32 40.9L34.99 45.5L29.01 45.5Z" fill="#1b1530"/>
+<path d="M26.25 48.95V54.7M32 48.95V54.7M37.75 48.95V54.7" fill="none" stroke="#1b1530" stroke-width="2.07"/>
+</g>
+</svg>

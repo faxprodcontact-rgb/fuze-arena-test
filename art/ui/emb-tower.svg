@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<!-- Fuze Arena : « tour infinie » (préfixe embtower-), générée par refonte/outils/icones.cjs -->
+<defs><clipPath id="embtower-c0"><path d="M33 3L46 7L33 11Z"/></clipPath><clipPath id="embtower-c1"><path d="M20 28L32 11L44 28Z"/></clipPath><clipPath id="embtower-c2"><path d="M19 62L21 28L43 28L45 62Z"/></clipPath><clipPath id="embtower-c3"><path d="M16 25H48V31H16Z"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 3V14" fill="none" stroke="#1b1530" stroke-width="6.800000000000001"/><path d="M32 3V14" fill="none" stroke="#9a6234" stroke-width="2.4"/>
+<path d="M33 3L46 7L33 11Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#embtower-c0)"><rect x="-8" y="-8" width="80" height="80" fill="#6e1129"/><path transform="translate(-0.48 -0.54)" d="M33 3L46 7L33 11Z" fill="#a81d35"/><path transform="translate(-1.2 -1.32)" d="M33 3L46 7L33 11Z" fill="#e3343d"/></g><path d="M33 3L46 7L33 11Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M20 28L32 11L44 28Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#embtower-c1)"><rect x="-8" y="-8" width="80" height="80" fill="#351868"/><path transform="translate(-1.28 -1.44)" d="M20 28L32 11L44 28Z" fill="#532b96"/><path transform="translate(-3.2 -3.52)" d="M20 28L32 11L44 28Z" fill="#7d47cc"/><ellipse cx="27.2" cy="15.42" rx="4.8" ry="2.04" transform="rotate(-28 27.2 15.42)" fill="#d6b8ff"/><circle cx="24.8" cy="14.4" r="1.45" fill="#ffffff"/></g><path d="M20 28L32 11L44 28Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M19 62L21 28L43 28L45 62Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#embtower-c2)"><rect x="-8" y="-8" width="80" height="80" fill="#4a4466"/><path transform="translate(-1.28 -1.44)" d="M19 62L21 28L43 28L45 62Z" fill="#6e6890"/><path transform="translate(-3.2 -3.52)" d="M19 62L21 28L43 28L45 62Z" fill="#9a94b8"/><ellipse cx="26.8" cy="36.84" rx="5.2" ry="4.08" transform="rotate(-28 26.8 36.84)" fill="#d8d4ea"/><circle cx="24.2" cy="34.8" r="1.9" fill="#ffffff"/></g><path d="M19 62L21 28L43 28L45 62Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+<path d="M21 38H43M20 48H44M27 28V38M37 38V48M30 48V62" fill="none" stroke="#4a4466" stroke-width="1.6"/>
+<path d="M28 40V34C28 31 30 30 32 30C34 30 36 31 36 34V40Z" fill="#2a2048" stroke="#1b1530" stroke-width="1.6"/>
+<path d="M29.5 39V35C29.5 33 34.5 33 34.5 35V39Z" fill="#ffd36a"/>
+<path d="M16 25H48V31H16Z" fill="#1b1530" stroke="#1b1530" stroke-width="6"/><g clip-path="url(#embtower-c3)"><rect x="-8" y="-8" width="80" height="80" fill="#4a4466"/><path transform="translate(-0.56 -0.63)" d="M16 25H48V31H16Z" fill="#6e6890"/><path transform="translate(-1.4 -1.54)" d="M16 25H48V31H16Z" fill="#9a94b8"/></g><path d="M16 25H48V31H16Z" fill="none" stroke="#1b1530" stroke-width="2.2"/>
+</g>
+</svg>
