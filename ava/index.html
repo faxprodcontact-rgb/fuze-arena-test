@@ -191,7 +191,7 @@ body {
 		</script>
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":31465744,"index.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":31471312,"index.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
@@ -281,10 +281,13 @@ const engine = new Engine(GODOT_CONFIG);
 		setStatusMode('progress');
 		engine.startGame({
 			'onProgress': function (current, total) {
-				if (current > 0 && total > 0) {
+				// (un dernier avancement peut arriver après la disparition de l'écran de chargement)
+				const plein = document.getElementById('ava-plein');
+				const texte = document.getElementById('ava-texte');
+				if (current > 0 && total > 0 && plein && texte) {
 					const part = Math.min(100, Math.round(100 * current / total));
-					document.getElementById('ava-plein').style.width = Math.max(6, part) + '%';
-					document.getElementById('ava-texte').textContent = 'Chargement… ' + part + ' %';
+					plein.style.width = Math.max(6, part) + '%';
+					texte.textContent = 'Chargement… ' + part + ' %';
 				}
 			},
 		}).then(() => {
