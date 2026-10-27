@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
@@ -26,57 +26,104 @@ body {
 	outline: none;
 }
 
-#status, #status-splash, #status-progress {
-	position: absolute;
-	left: 0;
-	right: 0;
-}
 
-#status, #status-splash {
-	top: 0;
-	bottom: 0;
-}
-
+/* L'écran de chargement d'AVA (27/10/2026) : les deux énergies (or de la Lumière à gauche, violet de l'Ombre à droite,
+   comme l'écran de connexion), des particules qui montent, la flamme de l'Éther qui vacille, et la barre de chargement. */
 #status {
-	background-color: #0b0d2a;
+	background: #0A0620;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	visibility: hidden;
+	overflow: hidden;
+	font-family: 'Trebuchet MS', 'Segoe UI', Arial, sans-serif;
+}
+#ava-fond-lumiere, #ava-fond-ombre {
+	position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+}
+#ava-fond-ombre {
+	background: radial-gradient(ellipse 60% 45% at 72% 42%, rgba(154, 92, 255, 0.32), transparent 70%),
+		linear-gradient(#3A1680, #1E0C4E 50%, #0A0620);
+}
+#ava-fond-lumiere {
+	background: radial-gradient(ellipse 60% 45% at 28% 42%, rgba(255, 201, 74, 0.30), transparent 70%),
+		linear-gradient(#A8741C, #6E440E 50%, #301A08);
+	-webkit-mask-image: linear-gradient(90deg, #000 0%, #000 45%, transparent 55%);
+	mask-image: linear-gradient(90deg, #000 0%, #000 45%, transparent 55%);
+}
+#ava-frontiere {
+	position: absolute; top: 0; bottom: 0; left: 50%; width: 70px; margin-left: -35px;
+	background: linear-gradient(90deg, transparent, rgba(255, 245, 255, 0.07) 40%, rgba(255, 255, 255, 0.22) 50%, rgba(255, 245, 255, 0.07) 60%, transparent);
+}
+.ava-particule {
+	position: absolute; bottom: -10px; border-radius: 50%;
+	animation-name: ava-monte; animation-timing-function: linear; animation-iteration-count: infinite;
+}
+@keyframes ava-monte {
+	0% { transform: translateY(0); opacity: 0; }
+	15% { opacity: 1; }
+	85% { opacity: 1; }
+	100% { transform: translateY(-105vh); opacity: 0; }
+}
+#ava-halo {
+	position: absolute; left: 50%; top: calc(50% - 357px); width: 300px; height: 300px; margin-left: -150px;
+	background: radial-gradient(circle closest-side, rgba(255, 228, 160, 0.55), rgba(200, 150, 255, 0.22) 55%, rgba(200, 150, 255, 0) 100%);
+	animation: ava-lueur 2.2s ease-in-out infinite; pointer-events: none;
+}
+#ava-centre {
+	position: relative; display: flex; flex-direction: column; align-items: center;
+}
+#ava-flamme {
+	position: relative; width: 96px; height: 92px;
 }
 
-#status-splash {
-	max-height: 100%;
-	max-width: 100%;
-	margin: auto;
+.flamme-svg {
+	position: relative; width: 96px; height: 92px; transform-origin: 50% 90%;
+	animation: ava-vacille 1.6s ease-in-out infinite;
+	
 }
-
-#status-splash.show-image--false {
-	display: none;
+@keyframes ava-vacille {
+	0%, 100% { transform: scale(1, 1) skewX(0deg); }
+	25% { transform: scale(0.97, 1.04) skewX(-2deg); }
+	50% { transform: scale(1.02, 0.97) skewX(1.5deg); }
+	75% { transform: scale(0.98, 1.03) skewX(-1deg); }
 }
-
-#status-splash.fullsize--true {
-	height: 100%;
-	width: 100%;
-	object-fit: contain;
+@keyframes ava-lueur {
+	0%, 100% { opacity: 0.75; transform: scale(1); }
+	50% { opacity: 1; transform: scale(1.08); }
 }
-
-#status-splash.use-filter--false {
-	image-rendering: pixelated;
+.ava-etincelle {
+	position: absolute; width: 5px; height: 5px; border-radius: 50%; bottom: 30px;
+	animation: ava-etincelle 1.8s ease-out infinite;
 }
-
-#status-progress, #status-notice {
-	display: none;
+@keyframes ava-etincelle {
+	0% { transform: translate(0, 0) scale(1); opacity: 0; }
+	20% { opacity: 1; }
+	100% { transform: translate(var(--dx), -70px) scale(0.3); opacity: 0; }
 }
-
 #status-progress {
-	bottom: 10%;
-	width: 50%;
-	margin: 0 auto;
+	position: relative; margin-top: 34px; width: min(62vw, 300px); height: 14px; border-radius: 10px;
+	background: rgba(10, 8, 32, 0.8); border: 1.5px solid rgba(233, 221, 255, 0.55);
+	box-shadow: 0 0 16px rgba(180, 140, 255, 0.25); overflow: hidden; display: none;
 }
-
+#ava-plein {
+	position: absolute; left: 0; top: 0; bottom: 0; width: 6%; border-radius: 10px;
+	background: linear-gradient(90deg, #FFD24A, #FFF3C4 50%, #B57BFF);
+	box-shadow: 0 0 12px rgba(255, 230, 180, 0.7); transition: width 0.25s ease-out;
+}
+#ava-plein::after {
+	content: ''; position: absolute; top: 0; bottom: 0; width: 40px; left: -40px;
+	background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.7), transparent);
+	animation: ava-reflet 1.4s linear infinite;
+}
+@keyframes ava-reflet { to { left: 110%; } }
+#ava-texte {
+	margin-top: 12px; color: #EADCFF; font-size: 15px; font-weight: bold; letter-spacing: 1px;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
 #status-notice {
+	display: none;
 	background-color: #5b3943;
 	border-radius: 0.5rem;
 	border: 1px solid #9b3943;
@@ -87,7 +134,7 @@ body {
 	overflow: hidden;
 	padding: 1rem;
 	text-align: center;
-	z-index: 1;
+	z-index: 2;
 }
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
@@ -104,14 +151,55 @@ body {
 		</noscript>
 
 		<div id="status">
-			<img id="status-splash" class="show-image--false fullsize--true use-filter--true" src="index.png" alt="">
-			<progress id="status-progress"></progress>
+			<div id="ava-fond-ombre"></div>
+			<div id="ava-fond-lumiere"></div>
+			<div id="ava-frontiere"></div>
+			<div id="ava-particules"></div>
+			<div id="ava-halo"></div>
+			<div id="ava-centre">
+				<div id="ava-flamme"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-28 -26 56 52" class="flamme-svg"><defs><clipPath id="sg"><path d="M -5 -30 L -4.2 -9 L -1.5 -3.5 C -0.4 -0.6 4 1.6 3.8 6 C 3.6 10.2 -0.4 12 -0.6 16 C -0.7 18 -0.3 19.3 0 20 L 0 30 L -30 30 L -30 -30 Z"/></clipPath><clipPath id="sd"><path d="M -5 -30 L -4.2 -9 L -1.5 -3.5 C -0.4 -0.6 4 1.6 3.8 6 C 3.6 10.2 -0.4 12 -0.6 16 C -0.7 18 -0.3 19.3 0 20 L 0 30 L 30 30 L 30 -30 Z"/></clipPath><linearGradient id="scb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFF1C4"/></linearGradient><linearGradient id="sbb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE07A"/><stop offset="1" stop-color="#F0A21E"/></linearGradient><linearGradient id="scv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C49BFF"/><stop offset="1" stop-color="#7A3BE6"/></linearGradient><linearGradient id="sbv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6A30C8"/><stop offset="1" stop-color="#3E1688"/></linearGradient></defs><g transform="scale(1 1.06)"><g clip-path="url(#sg)"><path d="M 0 -21 C 5 -13 14 -8 14 4 C 14 13 7.5 20 0 20 C -7.5 20 -14 13 -14 4 C -14 -3 -10 -8 -6.5 -12 C -6 -7 -4 -4.5 -1.5 -3.5 C -3 -10 -2 -16 0 -21 Z" fill="url(#sbb)"/><path d="M 1.1 -14.2 C 4 -9.8 10.8 -5.6 10.8 4 C 10.8 11.8 6 16.8 0 16.8 C -6 16.8 -10.8 11.8 -10.8 4 C -10.8 -0.6 -9.2 -3.8 -7.6 -5.9 C -6.7 -3.2 -4.5 -0.9 -0.9 -0.5 C -0.1 -1.1 0.7 -3 0.9 -5 C 0.9 -8.5 0.6 -11.5 1.1 -14.2 Z" fill="url(#scb)"/><path d="M 2.2 1.06 C 3.9 3.78 6.96 5.48 6.96 9.56 C 6.96 12.62 4.75 15 2.2 15 C -0.35 15 -2.56 12.62 -2.56 9.56 C -2.56 7.18 -1.2 5.48 -0.01 4.12 C 0.16 5.82 0.84 6.67 1.69 7.01 C 1.18 4.8 1.52 2.76 2.2 1.06 Z" fill="#FFE58A"/></g><g clip-path="url(#sd)"><path d="M 0 -21 C 5 -13 14 -8 14 4 C 14 13 7.5 20 0 20 C -7.5 20 -14 13 -14 4 C -14 -3 -10 -8 -6.5 -12 C -6 -7 -4 -4.5 -1.5 -3.5 C -3 -10 -2 -16 0 -21 Z" fill="url(#sbv)"/><path d="M 1.1 -14.2 C 4 -9.8 10.8 -5.6 10.8 4 C 10.8 11.8 6 16.8 0 16.8 C -6 16.8 -10.8 11.8 -10.8 4 C -10.8 -0.6 -9.2 -3.8 -7.6 -5.9 C -6.7 -3.2 -4.5 -0.9 -0.9 -0.5 C -0.1 -1.1 0.7 -3 0.9 -5 C 0.9 -8.5 0.6 -11.5 1.1 -14.2 Z" fill="url(#scv)"/><path d="M 2.2 1.06 C 3.9 3.78 6.96 5.48 6.96 9.56 C 6.96 12.62 4.75 15 2.2 15 C -0.35 15 -2.56 12.62 -2.56 9.56 C -2.56 7.18 -1.2 5.48 -0.01 4.12 C 0.16 5.82 0.84 6.67 1.69 7.01 C 1.18 4.8 1.52 2.76 2.2 1.06 Z" fill="#E6D2FF"/><path d="M 8.4 9.5 C 9 6.5 8.4 3.2 6.6 0.6" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/></g><path d="M -8.6 8.5 C -9.2 4.5 -8 0.8 -5.8 -1.6" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/><path d="M -1.5 -3.5 C -0.4 -0.6 4 1.6 3.8 6 C 3.6 10.2 -0.4 12 -0.6 16 C -0.7 18 -0.3 19.3 0 20" fill="none" stroke="#1B1433" stroke-width="1.0613207547169812" stroke-linecap="round" stroke-linejoin="round"/><path d="M 0 -21 C 5 -13 14 -8 14 4 C 14 13 7.5 20 0 20 C -7.5 20 -14 13 -14 4 C -14 -3 -10 -8 -6.5 -12 C -6 -7 -4 -4.5 -1.5 -3.5 C -3 -10 -2 -16 0 -21 Z" fill="none" stroke="#1B1433" stroke-width="1.6981132075471699" stroke-linejoin="round"/></g></svg></div>
+				<div id="status-progress"><div id="ava-plein"></div></div>
+				<div id="ava-texte">Chargement…</div>
+			</div>
 			<div id="status-notice"></div>
 		</div>
 
+		<script>
+(function () {
+	const zone = document.getElementById('ava-particules');
+	for (let k = 0; k < 46; k++) {
+		const p = document.createElement('span');
+		const lumiere = k % 2 === 0;
+		const taille = 2 + Math.random() * 4;
+		p.className = 'ava-particule';
+		p.style.left = (lumiere ? Math.random() * 48 : 52 + Math.random() * 48) + '%';
+		p.style.width = p.style.height = taille + 'px';
+		const clair = Math.random() < 0.35;
+		const c = lumiere ? (clair ? '#FFF6D0' : '#FFD34D') : (clair ? '#E6D2FF' : '#B57BFF');
+		p.style.background = c;
+		p.style.boxShadow = '0 0 ' + (taille * 3) + 'px ' + c;
+		p.style.animationDuration = (7 + Math.random() * 9) + 's';
+		p.style.animationDelay = (-Math.random() * 14) + 's';
+		zone.appendChild(p);
+	}
+	const flamme = document.getElementById('ava-flamme');
+	for (let k = 0; k < 10; k++) {
+		const e = document.createElement('span');
+		const c = k % 2 === 0 ? '#FFE58A' : '#D9B8FF';
+		e.className = 'ava-etincelle';
+		e.style.left = (30 + Math.random() * 36) + 'px';
+		e.style.background = c;
+		e.style.boxShadow = '0 0 8px ' + c;
+		e.style.setProperty('--dx', (Math.random() * 50 - 25) + 'px');
+		e.style.animationDelay = (Math.random() * 1.8) + 's';
+		e.style.animationDuration = (1.4 + Math.random() * 1.2) + 's';
+		flamme.appendChild(e);
+	}
+}());
+		</script>
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":31368536,"index.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":31368488,"index.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
@@ -202,11 +290,9 @@ const engine = new Engine(GODOT_CONFIG);
 		engine.startGame({
 			'onProgress': function (current, total) {
 				if (current > 0 && total > 0) {
-					statusProgress.value = current;
-					statusProgress.max = total;
-				} else {
-					statusProgress.removeAttribute('value');
-					statusProgress.removeAttribute('max');
+					const part = Math.min(100, Math.round(100 * current / total));
+					document.getElementById('ava-plein').style.width = Math.max(6, part) + '%';
+					document.getElementById('ava-texte').textContent = 'Chargement… ' + part + ' %';
 				}
 			},
 		}).then(() => {
