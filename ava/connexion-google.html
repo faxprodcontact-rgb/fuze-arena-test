@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AVA · Connexion</title>
+<style>
+:root{--fond:#0d0b24;--carte:#17143a;--texte:#ece8ff;--doux:#b8b2dd;--or:#ffd34d}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 20% 0,#3a2a08 0,transparent 45%),radial-gradient(circle at 80% 0,#2c1460 0,transparent 50%),var(--fond);color:var(--texte);font:18px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:420px;margin:24px 16px;padding:28px 22px;text-align:center;background:var(--carte);border:1px solid #3b3570;border-radius:20px}
+img{width:96px;height:96px}
+h1{font-size:24px;margin:10px 0}
+p{color:var(--doux);margin:8px 0}
+.ok{color:#8cff9e}.erreur{color:#ff8a9a}
+</style></head>
+<body><main>
+<img src="../ava-logo.png" alt="AVA">
+<h1 id="titre">Connexion avec Google…</h1>
+<p id="texte">Un instant.</p>
+</main>
+<script>
+// La connexion avec Google pour l'application AVA (iPhone, Android ; depuis le 02/11/2026). L'application ouvre cette page
+// avec un code (« etat ») ; la page part chez Google (par Supabase), revient ici avec le jeton de connexion, et le dépose
+// sur le serveur sous ce code (ava_relais_ecrire). L'application, qui attend, le récupère (ava_relais_lire).
+(async function () {
+	const titre = document.getElementById("titre"), texte = document.getElementById("texte");
+	function dire(t, x, classe) { titre.textContent = t; texte.textContent = x; texte.className = classe || ""; }
+	try {
+		const config = await (await fetch("../ava-serveur.json?t=" + Date.now())).json();
+		const url = String(config.url || "").trim().replace(/\/+$/, "").replace(/\/rest\/v1$/, "");
+		const cle = String(config.cle || "").trim();
+		const valeurs = new URLSearchParams(location.hash.slice(1) || location.search.slice(1));
+		const ici = location.origin + location.pathname;
+		if (valeurs.get("access_token")) {
+			const etat = localStorage.getItem("ava_etat") || "";
+			history.replaceState(null, "", location.pathname);
+			const r = await fetch(url + "/rest/v1/rpc/ava_relais_ecrire", { method: "POST",
+				headers: { "apikey": cle, "Authorization": "Bearer " + valeurs.get("access_token"), "Content-Type": "application/json" },
+				body: JSON.stringify({ etat: etat }) });
+			localStorage.removeItem("ava_etat");
+			if (!r.ok) throw new Error("serveur");
+			dire("C'est bon !", "Vous êtes connecté. Revenez maintenant dans l'application AVA.", "ok");
+			return;
+		}
+		if (valeurs.get("error")) {
+			dire("Connexion annulée", "Revenez dans l'application AVA pour réessayer.", "erreur");
+			return;
+		}
+		const etat = new URLSearchParams(location.search.slice(1)).get("etat") || "";
+		if (!/^[0-9a-f]{32}$/.test(etat)) {
+			dire("Lien incomplet", "Ouvrez cette page depuis l'application AVA (bouton « Continuer avec Google »).", "erreur");
+			return;
+		}
+		localStorage.setItem("ava_etat", etat);
+		location.href = url + "/auth/v1/authorize?provider=google&redirect_to=" + encodeURIComponent(ici);
+	} catch (e) {
+		dire("Oups", "La connexion n'a pas marché. Revenez dans l'application AVA et réessayez.", "erreur");
+	}
+})();
+</script>
+</body></html>
