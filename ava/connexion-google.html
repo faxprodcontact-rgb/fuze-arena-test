@@ -12,13 +12,14 @@ p{color:var(--doux);margin:8px 0}
 </style></head>
 <body><main>
 <img src="../ava-logo.png" alt="AVA">
-<h1 id="titre">Connexion avec Google…</h1>
+<h1 id="titre">Connexion…</h1>
 <p id="texte">Un instant.</p>
 </main>
 <script>
-// La connexion avec Google pour l'application AVA (iPhone, Android ; depuis le 02/11/2026). L'application ouvre cette page
-// avec un code (« etat ») ; la page part chez Google (par Supabase), revient ici avec le jeton de connexion, et le dépose
-// sur le serveur sous ce code (ava_relais_ecrire). L'application, qui attend, le récupère (ava_relais_lire).
+// La connexion avec Google pour l'application AVA (iPhone, Android ; depuis le 02/11/2026), ou avec Apple
+// (« fournisseur=apple », depuis le 04/11/2026). L'application ouvre cette page avec un code (« etat ») ; la page part chez
+// Google ou Apple (par Supabase), revient ici avec le jeton de connexion, et le dépose sur le serveur sous ce code
+// (ava_relais_ecrire). L'application, qui attend, le récupère (ava_relais_lire).
 (async function () {
 	const titre = document.getElementById("titre"), texte = document.getElementById("texte");
 	function dire(t, x, classe) { titre.textContent = t; texte.textContent = x; texte.className = classe || ""; }
@@ -43,13 +44,16 @@ p{color:var(--doux);margin:8px 0}
 			dire("Connexion annulée", "Revenez dans l'application AVA pour réessayer.", "erreur");
 			return;
 		}
-		const etat = new URLSearchParams(location.search.slice(1)).get("etat") || "";
+		const params = new URLSearchParams(location.search.slice(1));
+		const etat = params.get("etat") || "";
+		const fournisseur = params.get("fournisseur") === "apple" ? "apple" : "google";
+		dire("Connexion avec " + (fournisseur === "apple" ? "Apple" : "Google") + "…", "Un instant.");
 		if (!/^[0-9a-f]{32}$/.test(etat)) {
-			dire("Lien incomplet", "Ouvrez cette page depuis l'application AVA (bouton « Continuer avec Google »).", "erreur");
+			dire("Lien incomplet", "Ouvrez cette page depuis l'application AVA (bouton « Continuer avec Google » ou « Continuer avec Apple »).", "erreur");
 			return;
 		}
 		localStorage.setItem("ava_etat", etat);
-		location.href = url + "/auth/v1/authorize?provider=google&redirect_to=" + encodeURIComponent(ici);
+		location.href = url + "/auth/v1/authorize?provider=" + fournisseur + "&redirect_to=" + encodeURIComponent(ici);
 	} catch (e) {
 		dire("Oups", "La connexion n'a pas marché. Revenez dans l'application AVA et réessayez.", "erreur");
 	}
