@@ -14,12 +14,20 @@ p{color:var(--doux);margin:8px 0}
 <img src="../ava-logo.png" alt="AVA">
 <h1 id="titre">Connexion…</h1>
 <p id="texte">Un instant.</p>
+<a id="retour" href="avajeu://connexion" style="display:none;margin-top:14px;padding:12px 22px;border-radius:14px;background:var(--or);color:#1b1433;font-weight:700;text-decoration:none">Revenir dans AVA</a>
 </main>
 <script>
 // La connexion avec Google pour l'application AVA (iPhone, Android ; depuis le 02/11/2026), ou avec Apple
 // (« fournisseur=apple », depuis le 04/11/2026). L'application ouvre cette page avec un code (« etat ») ; la page part chez
 // Google ou Apple (par Supabase), revient ici avec le jeton de connexion, et le dépose sur le serveur sous ce code
 // (ava_relais_ecrire). L'application, qui attend, le récupère (ava_relais_lire).
+// Le retour dans l'application (depuis le 11/11/2026) : l'application déclare l'adresse « avajeu:// », Safari y renvoie
+// tout seul (il peut demander « Ouvrir dans AVA ? ») ; le bouton reste là si le joueur a refusé.
+function retourApp() {
+	const bouton = document.getElementById("retour");
+	bouton.style.display = "inline-block";
+	setTimeout(function () { location.href = "avajeu://connexion"; }, 400);
+}
 (async function () {
 	const titre = document.getElementById("titre"), texte = document.getElementById("texte");
 	function dire(t, x, classe) { titre.textContent = t; texte.textContent = x; texte.className = classe || ""; }
@@ -37,11 +45,13 @@ p{color:var(--doux);margin:8px 0}
 				body: JSON.stringify({ etat: etat }) });
 			localStorage.removeItem("ava_etat");
 			if (!r.ok) throw new Error("serveur");
-			dire("C'est bon !", "Vous êtes connecté. Revenez maintenant dans l'application AVA.", "ok");
+			dire("C'est bon !", "Vous êtes connecté. Retour dans l'application AVA…", "ok");
+			retourApp();
 			return;
 		}
 		if (valeurs.get("error")) {
 			dire("Connexion annulée", "Revenez dans l'application AVA pour réessayer.", "erreur");
+			retourApp();
 			return;
 		}
 		const params = new URLSearchParams(location.search.slice(1));
