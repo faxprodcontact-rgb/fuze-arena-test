@@ -24,6 +24,14 @@ p{color:var(--doux);margin:8px 0}
 // Le retour dans l'application (depuis le 11/11/2026) : l'application déclare l'adresse « avajeu:// », Safari y renvoie
 // tout seul (il peut demander « Ouvrir dans AVA ? ») ; le bouton reste là si le joueur a refusé.
 function retourApp() {
+	// (sur Android, l'application d'essai ne déclare pas encore cette adresse : on dit seulement de revenir dans le jeu)
+	if (/Android/i.test(navigator.userAgent)) {
+		const p = document.createElement("p");
+		p.textContent = "Revenez maintenant dans le jeu AVA (touche des applications récentes, ou l'icône d'AVA).";
+		p.style.marginTop = "14px";
+		document.getElementById("texte").after(p);
+		return;
+	}
 	const bouton = document.getElementById("retour");
 	bouton.style.display = "inline-block";
 	setTimeout(function () { location.href = "avajeu://connexion"; }, 400);
